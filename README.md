@@ -3,8 +3,8 @@
 来源:
 
 变量：
-jd_zdjr_activityId = ''// 活动ID
-jd_zdjr_activityUrl = ''// 活动地址
+jd_zdjr_activityId = '' <!-- 活动ID -->
+jd_zdjr_activityUrl = ''<!-- 活动地址 -->
 
 监控格式
 ````
