@@ -15,3 +15,18 @@ jd_zdjr_activityUrl = ''  // 活动地址 <br>
 }
 
 ````
+##  jd_opencardDPLHTY.js 大牌联合通用开卡
+<!-- 来源: -->
+###  变量：
+DPLHTY = ''   // 活动ID <br>
+
+
+###  监控格式
+````
+{
+"isOpen": true,
+"name": "大牌联合通用开卡",
+"envName":"DPLHTY",
+"scriptPath":"/ql/repo/gd/jk_script/jd_opencardDPLHTY.js"
+}
+````
