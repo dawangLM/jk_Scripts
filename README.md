@@ -1,12 +1,11 @@
 #  监控脚本
 ##  jd_zdjr.js lz组队瓜分
-来源:
-
-变量：
+<!-- 来源: -->
+###  变量：
 jd_zdjr_activityId = ''   // 活动ID <br>
 jd_zdjr_activityUrl = ''  // 活动地址 <br>
 
-监控格式
+###  监控格式
 ````
 {
 "isOpen": true,
