@@ -41,7 +41,7 @@ api.m.jd.com
 
 
 */
-const $ = new Env('21 赚喜豆-内部助力');
+const $ = new Env('22 赚喜豆-内部助力');
 let cookiesArr = [], cookie = '',  notify,  allMessage = '' ;
 const logs = 0; // 0为关闭日志，1为开启
 $.message = '';
