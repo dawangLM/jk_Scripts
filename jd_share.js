@@ -14,7 +14,7 @@ SHARE_ACTIVITY_ID活动id
 
 即时任务，无需cron
 */
-const $ = new Env("自动车-分享有礼");
+const $ = new Env("11 自动车-分享有礼");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';

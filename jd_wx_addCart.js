@@ -1,7 +1,7 @@
 //问题反馈:https://t.me/Wall_E_Channel
 let mode = __dirname.includes('magic')
 const {Env} = mode ? require('./magic') : require('./magic')
-const $ = new Env('M加购有礼');
+const $ = new Env('14 M加购有礼');
 $.activityUrl = process.env.M_WX_ADD_CART_URL
     ? process.env.M_WX_ADD_CART_URL
     : '';

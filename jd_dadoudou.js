@@ -10,7 +10,7 @@ https://lzkj-isv.isvjcloud.com/wxgame/activity/8530275?activityId=e5cff304b4b545
 脚本加密!!!介意别跑!!!
 脚本加密!!!介意别跑!!!
 */
-const $ = new Env('打豆豆');
+const $ = new Env('03 打豆豆');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
