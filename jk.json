@@ -144,18 +144,18 @@
 		    "envName":"PKC_TXGZYL",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/pkc_txgzyl.js"
 		},
-		{
-		    "isOpen": true,
-		    "name": "JOY通用开卡活动",
-		    "envName":"JD_JOYOPEN",
-		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_joyopen.js"
-		},
         {
             "isOpen": true,
             "name": "入会开卡领取礼包通用 ",
             "envName":"VENDER_ID",
             "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_OpenCard_Force.js"
-        } 
+        },
+		{
+		    "isOpen": true,
+		    "name": "JOY通用开卡活动",
+		    "envName":"JD_JOYOPEN",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_joyopen.js"
+		}
    ]
     
 }
