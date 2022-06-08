@@ -155,6 +155,12 @@
 		    "name": "JOY通用开卡活动",
 		    "envName":"JD_JOYOPEN",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_joyopen.js"
+		},
+        		{
+		    "isOpen": true,
+		    "name": "LZ刮刮乐抽奖通用活动",
+		    "envName":"jd_drawCenter_activityId",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_drawCenter.js"
 		}
    ]
     
