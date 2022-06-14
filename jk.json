@@ -30,12 +30,6 @@
 		    "envName": "computer_activityId",
 		    "scriptPath": "/ql/repo/Aurora209_jk_Scripts/jd_computer.js"
 		 },
-		{
-		   "isOpen": true,
-	       "name": "打豆豆",
-	       "envName":"WXGAME_ACT_ID",
-	       "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_dadoudou.js"
-	   },
 	   {
 	       "isOpen": true,
 	       "name": "M关注有礼",
