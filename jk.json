@@ -167,6 +167,12 @@
 		    "name": "购物车锦鲤通用活动",
 		    "envName":"jd_wxCartKoi_activityId",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxCartKoi.js"
+		},
+        {
+		    "isOpen": true,
+		    "name": "通用游戏任务",
+		    "envName":"WXGAME_ACT_ID",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_game.js"
 		}
    ]
     
