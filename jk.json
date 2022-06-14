@@ -89,7 +89,7 @@
             "name": "微定制瓜分京豆",
             "envName":"jd_wdz_activityId",
             "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_team60.js"
-        },
+        },	
         {
             "isOpen": true,
             "name": "众筹许愿池",
@@ -107,7 +107,7 @@
             "name": "集卡抽奖通用活动",
             "envName":"M_WX_COLLECT_CARD_URL",
             "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wx_collectCard.js"
-        },	
+        },
         {
             "isOpen": true,
             "name": "M幸运抽奖",
@@ -150,17 +150,23 @@
             "envName":"VENDER_ID",
             "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_OpenCard_Force.js"
         },
-		{
+    	{
 		    "isOpen": true,
 		    "name": "JOY通用开卡活动",
 		    "envName":"JD_JOYOPEN",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_joyopen.js"
 		},
-        		{
+        {
 		    "isOpen": true,
 		    "name": "LZ刮刮乐抽奖通用活动",
 		    "envName":"jd_drawCenter_activityId",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_drawCenter.js"
+		},
+        {
+		    "isOpen": true,
+		    "name": "购物车锦鲤通用活动",
+		    "envName":"jd_wxCartKoi_activityId",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxCartKoi.js"
 		}
    ]
     
