@@ -32,12 +32,6 @@
 		 },
 	   {
 	       "isOpen": true,
-	       "name": "M关注有礼",
-	       "envName":"M_FOLLOW_SHOP_ARGV",
-	       "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_follow_shop.js"
-	   },
-	   {
-	       "isOpen": true,
 	       "name": "jdjoy_open通用ID任务",
 	       "envName": "comm_activityIDList",
 	       "scriptPath": "/ql/repo/Aurora209_jk_Scripts/jd_joyjd_open.js"
@@ -54,23 +48,11 @@
 		    "envName": "jd_mhurlList",
 		    "scriptPath": "ql/repo/Aurora209_jk_Scripts/jd_mhtask.js"
 		 },
-		 {
-		     "isOpen": true,
-		     "name": "女装盲盒抽京豆",
-		     "envName": "jd_nzmhurl",
-		     "scriptPath": "ql/repo/Aurora209_jk_Scripts/jd_nzmh.js"
-		 },
 	   {
 	       "isOpen": true,
 	       "name": "大牌联合通用开卡",
 	       "envName":"DPLHTY",
 	       "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
-	   },
-	   {
-	       "isOpen": true,
-	       "name": "整点京豆雨",
-	       "envName":"jd_redrain_url",
-	       "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_redrain.js"
 	   },
          {
             "isOpen": true,
@@ -92,21 +74,9 @@
         },
         {
             "isOpen": true,
-            "name": "加购任务",
-            "envName":"M_WX_ADD_CART_URL",
-            "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wx_addCart.js"
-        },
-        {
-            "isOpen": true,
             "name": "集卡抽奖通用活动",
             "envName":"M_WX_COLLECT_CARD_URL",
             "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wx_collectCard.js"
-        },
-        {
-            "isOpen": true,
-            "name": "M幸运抽奖",
-            "envName":"M_WX_LUCK_DRAW_URL",
-            "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wx_luckDraw.js"
         },
         {
             "isOpen": true,
@@ -167,6 +137,30 @@
 		    "name": "通用游戏任务",
 		    "envName":"WXGAME_ACT_ID",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_game.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "集卡抽奖通用活动",
+		    "envName":"jd_wxCollectCard_activityId",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxCollectCard.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "邀请赢大礼",
+		    "envName":"yhyauthorCode",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_yqhy.py"
+		},
+		{
+		    "isOpen": true,
+		    "name": "粉丝互动通用活动",
+		    "envName":"jd_wxFansInterActionActivity_activityId",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxFansInterActionActivity.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "LZ让福袋飞通用活动",
+		    "envName":"jd_wxUnPackingActivity_activityId",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxUnPackingActivity.js"
 		}
    ]
     
