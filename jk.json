@@ -161,6 +161,12 @@
 		    "name": "LZ让福袋飞通用活动",
 		    "envName":"jd_wxUnPackingActivity_activityId",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxUnPackingActivity.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "LZ加购有礼",
+		    "envName":"jd_lzaddCart_activityId",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_lzaddCart.js"
 		}
    ]
     
