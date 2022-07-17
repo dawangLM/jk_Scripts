@@ -167,6 +167,24 @@
 		    "name": "LZ加购有礼",
 		    "envName":"jd_lzaddCart_activityId",
 		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_lzaddCart.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "店铺开卡",
+		    "envName":"SHOP_VENDER_ID",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_card.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "粉丝互动",
+		    "envName":"wxFansInterActionActivity",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxFansinter.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "关注店铺抽奖",
+		    "envName":"wxShopFollowActivity",
+		    "scriptPath":"/ql/repo/Aurora209_jk_Scripts/jd_wxShopFollowActivity.js"
 		}
    ]
     
