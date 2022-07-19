@@ -96,12 +96,6 @@
             "envName":"SHARE_ACTIVITY_ID",
             "scriptPath":"jd_share.js"
         },
-         {
-            "isOpen": true,
-            "name": "分享有礼- 共富殿",
-            "envName":"jd_fxyl_activityId",
-            "scriptPath":"jd_share.js"
-        },
         {
             "isOpen": true,
             "name": "微定制",
@@ -122,21 +116,9 @@
         },
         {
             "isOpen": true,
-            "name": "读秒拼手速通用活动",
-            "envName":"jd_wxSecond_activityId",
-            "scriptPath":"/ql/repo/gd/jk_script/jd_wxSecond.js"
-        },
-        {
-            "isOpen": true,
             "name": "PKC关注有礼-特效",
             "envName":"PKC_TXGZYL",
             "scriptPath":"/ql/repo/gd/jk_script/pkc_txgzyl.js"
-        },
-        {
-            "isOpen": true,
-            "name": "大牌联合通用开卡",
-            "envName":"DPLHTY",
-            "scriptPath":"/ql/repo/gd/jk_script/jd_opencardDPLHTY.js"
         }
  
    ]
