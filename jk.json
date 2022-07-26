@@ -209,6 +209,54 @@
 		    "name": "自动车-联合关注+加购+分享领豆",
 		    "envName":"welfare",
 		    "scriptPath":"/ql/data/scripts/fav_and_addcart.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "joy抽奖机通用",
+		    "envName":"JD_Lottery",
+		    "scriptPath":"/ql/data/scripts/jd_lottery.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "粉丝互动",
+		    "envName":"wxFansInterActionActivit",
+		    "scriptPath":"/ql/data/scripts/jd_wxFansinter.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "店铺开卡",
+		    "envName":"SHOP_VENDER_ID",
+		    "scriptPath":"/ql/data/scripts/jd_card.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "LZ加购有礼",
+		    "envName":"jd_lzaddCart_activityId",
+		    "scriptPath":"/ql/data/scripts/jd_lzaddCart.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "PKC关注有礼-特效",
+		    "envName":"PKC_TXGZYL",
+		    "scriptPath":"/ql/data/scripts/pkc_txgzyl.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "JOY通用开卡活动",
+		    "envName":"JD_JOYOPEN",
+		    "scriptPath":"/ql/data/scripts/jd_joyopen.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "赚京豆-瓜分京豆",
+		    "envName":"zjdbody",
+		    "scriptPath":"/ql/data/scripts/pkc_zjd.js"
+		},
+		{
+		    "isOpen": true,
+		    "name": "PKC关注有礼",
+		    "envName":"PKC_GZYL",
+		    "scriptPath":"/ql/data/scripts/pkc_gzyl.js"
 		}
    ]
     
