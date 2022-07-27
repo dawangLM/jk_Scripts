@@ -28,7 +28,7 @@
   "jk":[
 	{
 		"isOpen": true,
-		"name": "通用转盘抽奖",
+		"name": "M幸运抽奖",
 		"envName":"M_WX_LUCK_DRAW_URL",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_luckDraw.js"
 	},
@@ -265,6 +265,12 @@
 		"name": "PKC关注有礼",
 		"envName":"PKC_GZYL",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/pkc_gzyl.js"
+	},
+	{
+		"isOpen": true,
+		"name": "M邀请有礼LOREAL",
+		"envName":"activityUrl",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_loreal_invite.js"
 	}
    ]
     
