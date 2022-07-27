@@ -11,7 +11,7 @@
   
     "/注释envName/": "envName: 监控的变量名称，必要。如同一个脚本有多个变量只需要填其中一个即可",
   
-    "/注释scriptPath/": "scriptPath: 变量应对的脚本路径，必要。相对路径默认执行/ql/scripts/下面脚本，可填绝对路径。",
+    "/注释scriptPath/": "scriptPath: 变量应对的脚本路径，必要。相对路径默认执行/ql/scripts/Aurora209_jk_Scripts/下面脚本，可填绝对路径。",
 
     "/注释log_send日志发送模式/": "1-bot发送；2-user发送；",
 
@@ -30,241 +30,241 @@
 		    "isOpen": true,
 		    "name": "通用转盘抽奖",
 		    "envName":"M_WX_LUCK_DRAW_URL",
-		    "scriptPath":"/ql/data/scripts/m_jd_wx_luckDraw.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/m_jd_wx_luckDraw.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "M集卡抽奖",
 		    "envName": "M_WX_COLLECT_CARD_URL",
-		    "scriptPath": "/ql/data/scripts/m_jd_wx_collectCard.js"
+		    "scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/m_jd_wx_collectCard.js"
 		 },
 	   {
 	       "isOpen": true,
 	       "name": "M加购有礼",
 	       "envName": "M_WX_ADD_CART_URL",
-	       "scriptPath": "/ql/data/scripts/m_jd_wx_addCart.js"
+	       "scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/m_jd_wx_addCart.js"
 	    },
 		{
 		    "isOpen": true,
 		    "name": "M关注有礼",
 		    "envName": "M_FOLLOW_SHOP_ARGV",
-		    "scriptPath": "/ql/data/scripts/m_jd_follow_shop.js"
+		    "scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/m_jd_follow_shop.js"
 		 },
 		{
 		    "isOpen": true,
 		    "name": "M收藏有礼",
 		    "envName": "M_FAV_SHOP_ARGV",
-		    "scriptPath": "ql/data/scripts/m_jd_fav_shop_gift.js"
+		    "scriptPath": "ql/data/scripts/Aurora209_jk_Scripts/m_jd_fav_shop_gift.js"
 		 },
 	   {
 	       "isOpen": true,
 	       "name": "LZ组队瓜分京豆",
 	       "envName":"jd_zdjr_activityId",
-	       "scriptPath":"/ql/data/scripts/jd_zdjr.js"
+	       "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_zdjr.js"
 	   },
          {
             "isOpen": true,
             "name": "邀请赢大礼",
             "envName":"yhyactivityId",
-            "scriptPath":"/ql/data/scripts/jd_yqhy.py"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_yqhy.py"
         },
         {
             "isOpen": true,
             "name": "LZ让福袋飞通用活动",
             "envName":"jd_wxUnPackingActivity_activityId",
-            "scriptPath":"/ql/data/scripts/jd_wxUnPackingActivity.js"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxUnPackingActivity.js"
         },	
         {
             "isOpen": true,
             "name": "关注店铺抽奖",
             "envName":"jd_wxShopFollowActivity_activityId",
-            "scriptPath":"/ql/data/scripts/jd_wxShopFollowActivity.js"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxShopFollowActivity.js"
         },
         {
             "isOpen": true,
             "name": "读秒拼手速通用活动",
             "envName":"jd_wxSecond_activityId",
-            "scriptPath":"/ql/data/scripts/jd_wxSecond.js"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxSecond.js"
         },
         {
             "isOpen": true,
             "name": "粉丝互动通用活动",
             "envName":"jd_wxFansInterActionActivity_activityId",
-            "scriptPath":"/ql/data/scripts/jd_wxFansInterActionActivity.js"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxFansInterActionActivity.js"
         },
         {
             "isOpen": true,
             "name": "集卡抽奖通用活动",
             "envName":"jd_wxCollectCard_activityId",
-            "scriptPath":"/ql/data/scripts/jd_wxCollectCard.js"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxCollectCard.js"
         },
 		{
 		    "isOpen": true,
 		    "name": "购物车锦鲤通用活动",
 		    "envName":"jd_wxCartKoi_activityId",
-		    "scriptPath":"/ql/data/scripts/jd_wxCartKoi.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxCartKoi.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "自动车-众筹许愿池",
 		    "envName":"wish_appIdArrList",
-		    "scriptPath":"/ql/data/scripts/jd_wish.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wish.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "PKC关注有礼-特效",
 		    "envName":"PKC_TXGZYL",
-		    "scriptPath":"/ql/data/scripts/pkc_txgzyl.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/pkc_txgzyl.js"
 		},
         {
             "isOpen": true,
             "name": "微定制瓜分通用",
             "envName":"jd_wdz_activityId",
-            "scriptPath":"/ql/data/scripts/jd_team60.js"
+            "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_team60.js"
         },
     	{
 		    "isOpen": true,
 		    "name": "lz分享有礼",
 		    "envName":"jd_fxyl_activityId",
-		    "scriptPath":"/ql/data/scripts/jd_share2.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_share2.js"
 		},
         {
 		    "isOpen": true,
 		    "name": "分享有礼",
 		    "envName":"SHARE_ACTIVITY_ID",
-		    "scriptPath":"/ql/data/scripts/jd_share.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_share.js"
 		},
         {
 		    "isOpen": true,
 		    "name": "超级无线店铺签到",
 		    "envName":"SEVENDAY_LIST",
-		    "scriptPath":"/ql/data/scripts/jd_sevenDay.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_sevenDay.js"
 		},
         {
 		    "isOpen": true,
 		    "name": "半点京豆雨",
 		    "envName":"jd_redrain_half_url",
-		    "scriptPath":"/ql/data/scripts/jd_redrain_half.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_redrain_half.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "整点京豆雨",
 		    "envName":"jd_redrain_url",
-		    "scriptPath":"/ql/data/scripts/jd_redrain.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_redrain.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "大牌联合通用开卡",
 		    "envName":"DPLHTY",
-		    "scriptPath":"/ql/data/scripts/jd_opencardDPLHTY.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "入会开卡领取礼包",
 		    "envName":"VENDER_ID",
-		    "scriptPath":"/ql/data/scripts/jd_OpenCard_Force.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_OpenCard_Force.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "自动车-女装盲盒抽京豆",
 		    "envName":"jd_nzmhurl",
-		    "scriptPath":"/ql/data/scripts/jd_nzmh.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_nzmh.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "自动车-盲盒任务抽京豆",
 		    "envName":"jd_mhurlList",
-		    "scriptPath":"/ql/data/scripts/jd_mhtask.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_mhtask.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "自动车-jd_joyjd_open通用ID任务",
 		    "envName":"comm_activityIDList",
-		    "scriptPath":"/ql/data/scripts/jd_joyjd_open.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_joyjd_open.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "邀好友赢大礼",
 		    "envName":"jd_inv_authorCode",
-		    "scriptPath":"/ql/data/scripts/jd_inviteFriendsGift.py"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_inviteFriendsGift.py"
 		},
 		{
 		    "isOpen": true,
 		    "name": "LZ刮刮乐抽奖通用活动-加密",
 		    "envName":"jd_drawCenter_activityId",
-		    "scriptPath":"/ql/data/scripts/jd_drawCenter.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_drawCenter.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "通用游戏任务",
 		    "envName":"WXGAME_ACT_ID",
-		    "scriptPath":"/ql/data/scripts/jd_doudou.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_doudou.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "自动车-电脑配件",
 		    "envName":"computer_activityId",
-		    "scriptPath":"/ql/data/scripts/jd_computer.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_computer.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "CJ组队瓜分京豆",
 		    "envName":"jd_cjhy_activityId",
-		    "scriptPath":"/ql/data/scripts/jd_cjzdgf.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_cjzdgf.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "自动车-联合关注+加购+分享领豆",
 		    "envName":"welfare",
-		    "scriptPath":"/ql/data/scripts/fav_and_addcart.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/fav_and_addcart.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "joy抽奖机通用",
 		    "envName":"JD_Lottery",
-		    "scriptPath":"/ql/data/scripts/jd_lottery.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_lottery.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "粉丝互动",
 		    "envName":"wxFansInterActionActivit",
-		    "scriptPath":"/ql/data/scripts/jd_wxFansinter.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_wxFansinter.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "店铺开卡",
 		    "envName":"SHOP_VENDER_ID",
-		    "scriptPath":"/ql/data/scripts/jd_card.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_card.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "LZ加购有礼",
 		    "envName":"jd_lzaddCart_activityId",
-		    "scriptPath":"/ql/data/scripts/jd_lzaddCart.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_lzaddCart.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "PKC关注有礼-特效",
 		    "envName":"PKC_TXGZYL",
-		    "scriptPath":"/ql/data/scripts/pkc_txgzyl.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/pkc_txgzyl.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "JOY通用开卡活动",
 		    "envName":"JD_JOYOPEN",
-		    "scriptPath":"/ql/data/scripts/jd_joyopen.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_joyopen.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "赚京豆-瓜分京豆",
 		    "envName":"zjdbody",
-		    "scriptPath":"/ql/data/scripts/pkc_zjd.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/pkc_zjd.js"
 		},
 		{
 		    "isOpen": true,
 		    "name": "PKC关注有礼",
 		    "envName":"PKC_GZYL",
-		    "scriptPath":"/ql/data/scripts/pkc_gzyl.js"
+		    "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/pkc_gzyl.js"
 		}
    ]
     
