@@ -1,12 +1,9 @@
 /*
-更新时间：2022-7-23  每天90豆
+更新时间：2022-4-8
 交流频道：PKC皮卡车🚘 https://t.me/TopStyle2021
 每天90京豆，有效期很短，配合兑换青豆脚本自动兑换喜豆。
 使用说明：每抓一个body设置一个变量，再执行此脚本助力。仅自己内部ck助力变量body的团。
 
-圈x或v2p：
-可在boxjs(皮卡车-TG推送)设置tg推送，获取变量自动给机器人发送，实现自助式监控。
-boxjs订阅：https://raw.githubusercontent.com/curtinlv/gd/main/dy/boxjs.json
 
 # 变量
 export zjdbody=""
@@ -21,7 +18,7 @@ export zjdbody=""
 3.复制body设置变量，运行脚本，仅内部ck助力。
 
 ps：如果助力火爆，关闭重写，重新分享，再开启重写抓body。
-
+2022-4-8：可配置tg自动推送变量
 
 
 
@@ -30,18 +27,18 @@ ps：如果助力火爆，关闭重写，重新分享，再开启重写抓body�
 api.m.jd.com
 
 [rewrite_local]
-#更新重写 2022.7.23
-^https?://api\.m\.jd\.com/api url script-request-body https://raw.githubusercontent.com/curtinlv/gd/main/jk_script/pkc_zjd.js
-^https?://api\.m\.jd\.com/api url script-response-body https://raw.githubusercontent.com/curtinlv/gd/main/jk_script/pkc_zjd.js
+#触发自己点自己助力方便抓body，如过触发不了刷新小程序重新进入或分享给别的号点击。点击助力后即可获取，无论是否成功助力都可。
+^https?://api\.m\.jd\.com/api\?functionId=vvipclub_distributeBean_assist url script-request-body https://gitee.com/curtinlv/Curtin/raw/master/Script/c_zjd_help.js
+^https?://api\.m\.jd\.com/api\?functionId=distributeBeanActivityInfo url script-response-body https://gitee.com/curtinlv/Curtin/raw/master/Script/c_zjd_help.js
 
 [task_local]
 #获取body后执行
-10 10 * * * https://raw.githubusercontent.com/curtinlv/gd/main/jk_script/pkc_zjd.js, tag=微信小程序赚京豆-瓜分京豆, enabled=true
+10 10 * * * https://gitee.com/curtinlv/Curtin/raw/master/Script/c_zjd_help.js, tag=微信小程序赚京豆-瓜分京豆, enabled=true
 
 
 
 */
-const $ = new Env('PKC-赚京豆');
+const $ = new Env('赚喜豆-内部助力');
 let cookiesArr = [], cookie = '',  notify,  allMessage = '' ;
 const logs = 0; // 0为关闭日志，1为开启
 $.message = '';
@@ -112,8 +109,8 @@ let isGetbody = typeof $request !== 'undefined';
 
 
 async function GetBody() {
-    if (typeof $response !== 'undefined'){
-    if ($request && $response.body.indexOf("FISSION_BEAN") >= 0) {
+
+    if ($request && $request.url.indexOf("functionId=distributeBeanActivityInfo") >= 0) {
         var body = $response.body;
         let obj = JSON.parse(body);
             if(obj.data.assistStatus === 1){
@@ -130,8 +127,7 @@ async function GetBody() {
 
        $done({body});
     }
-    }else{
-        if ($request && $request.body.indexOf("functionId=vvipclub_distributeBean_assist") >= 0) {
+    if ($request && $request.url.indexOf("functionId=vvipclub_distributeBean_assist") >= 0) {
 
 
         if (typeof $request.body !== 'undefined'){
@@ -146,9 +142,6 @@ async function GetBody() {
         };
         $done();
     }
-    }
-
-
 }
 
 //助力
@@ -361,7 +354,7 @@ function tgBotNotify(text, desp) {
             data = JSON.parse(data);
             if (data.ok) {
                 console.log('Telegram发送通知消息成功🎉。\n')
-                $.msg(`【PKC提示】`, `[${$.name}]变量已推送到监控群组【${data.result.chat.title}】\n`);
+                $.msg(`【PKC提示】`, `变量已推送到监控群组【${data.result.chat.title}】\n`);
             } else if (data.error_code === 400) {
               console.log('请主动给bot发送一条消息并检查接收用户ID是否正确。\n')
             } else if (data.error_code === 401){
