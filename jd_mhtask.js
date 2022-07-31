@@ -1,16 +1,11 @@
 /*
-甘露殿-https://t.me/jdredrain
-
-自动车监控脚本-盲盒任务抽京豆
-https://raw.githubusercontent.com/msechen/jdrain/main/jd_mhtask.js
-
 #盲盒任务抽京豆，自行加入以下环境变量，多个活动用@连接
 export jd_mhurlList=""
 
 即时任务，无需cron
  */
 
-const $ = new Env('自动车-盲盒任务抽京豆');
+const $ = new Env('盲盒任务抽京豆');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
@@ -34,7 +29,7 @@ if ($.isNode()) {
     return;
   }
   if (!jd_mhurlList) {
-    $.log(`\n甘露殿【https://t.me/jdredrain】提醒你:暂时没有盲盒任务，改日再来～`);
+    $.log(`暂时没有盲盒任务，改日再来～`);
     return;
   }
   for (let i = 0; i < cookiesArr.length; i++) {
@@ -46,7 +41,7 @@ if ($.isNode()) {
       $.nickName = '';
       $.beans = 0
       message = '';
-      await TotalBean();
+      //await TotalBean();
       console.log(`\n******开始【京东账号${$.index}】${$.nickName || $.UserName}*********\n`);
       if (!$.isLogin) {
         $.msg($.name, `【提示】cookie已失效`, `京东账号${$.index} ${$.nickName || $.UserName}\n请重新登录获取\nhttps://bean.m.jd.com/`, {"open-url": "https://bean.m.jd.com/"});
@@ -58,7 +53,7 @@ if ($.isNode()) {
       let jd_mhurlArr = jd_mhurlList.split("@");
       for (let j = 0; j < jd_mhurlArr.length; j++) {
       jd_mhurl = jd_mhurlArr[j]
-      console.log(`\n甘露殿【https://t.me/jdredrain】提醒你:新的盲盒任务已经准备好: ${jd_mhurl}，准备开始薅豆`);
+      console.log(`新的盲盒任务已经准备好: ${jd_mhurl}，准备开始薅豆`);
         try {
         await jdMh(jd_mhurl)
         } catch (e) {
@@ -68,9 +63,9 @@ if ($.isNode()) {
     }
   }
   if (allMessage) {
-    if ($.isNode()) await notify.sendNotify(`${$.name}`, `${allMessage}\n甘露殿【https://t.me/jdredrain】`);
+    if ($.isNode()) await notify.sendNotify(`${$.name}`, `${allMessage}`);
     $.msg($.name, '', allMessage);
-    }
+  }
 })()
   .catch((e) => {
     $.log('', `❌ ${$.name}, 失败! 原因: ${e}!`, '')
@@ -164,9 +159,13 @@ function doTask(taskId) {
           console.log(`${$.name} API请求失败，请检查网路重试`)
         } else {
           data = JSON.parse(data.match(/query\((.*)\n/)[1])
+          if (data.errcode === 8004) {
+            console.log(`任务完成失败，无效任务ID`)
+          } else {
           if (data.data.complete_task_list.includes(taskId)) {
             console.log(`任务完成成功，当前幸运值${data.data.curbless}`)
             $.userInfo.bless = data.data.curbless
+            }
           }
         }
       } catch (e) {

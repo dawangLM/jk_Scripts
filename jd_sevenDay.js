@@ -1,32 +1,39 @@
 /*
-超级无线店铺签到
-10 1 0,6 * * *
-Fix by HarbourJ
-TG: https://t.me/HarbourToulu
+说明: 超级无线店铺签到
+不能并发,超级无线黑号不能跑,建议别跑太多号
+
+原作者：小埋
 
 环境变量:
-SEVENDAY_LIST 对应链接: https://lzkj-isv.isvjcloud.com/sign/sevenDay/signActivity?activityId=
-SEVENDAY_LIST2 对应链接: https://lzkj-isv.isvjcloud.com/sign/signActivity2?activityId=
-SEVENDAY_LIST3 对应链接: https://cjhy-isv.isvjcloud.com/sign/signActivity?activityId=
-多个activityId用&分开: export SEVENDAY_LIST=activityId1&activityId2
+SEVENDAY_LIST,SEVENDAY_LIST2,SEVENDAY_LIST3
+1 1 1 1 * jd_sevenDay.js
 */
 const $ = new Env('超级无线店铺签到');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
-let activityIdList = [], activityIdList2 = [], activityIdList3 = []
+// https://lzkj-isv.isvjcloud.com/sign/sevenDay/signActivity?activityId=
+let activityIdList = [
+]
+// https://lzkj-isv.isvjcloud.com/sign/signActivity2?activityId=
+let activityIdList2 = [
+
+]
+let activityIdList3 = [
+
+]
 let lz_cookie = {}
-let CookieNum = 15 //默认跑15个号
+let CookieNum = 10;
 if (process.env.SEVENDAY_LIST && process.env.SEVENDAY_LIST != "") {
-    activityIdList = process.env.SEVENDAY_LIST.split('&');
+    activityIdList = process.env.SEVENDAY_LIST.split(',');
 }
 if (process.env.SEVENDAY_LIST2 && process.env.SEVENDAY_LIST2 != "") {
-    activityIdList2 = process.env.SEVENDAY_LIST2.split('&');
+    activityIdList2 = process.env.SEVENDAY_LIST2.split(',');
 }
 if (process.env.SEVENDAY_LIST3 && process.env.SEVENDAY_LIST3 != "") {
-    activityIdList3 = process.env.SEVENDAY_LIST3.split('&');
+    activityIdList3 = process.env.SEVENDAY_LIST3.split(',');
 }
-if (process.env.COOKIE_NUM && process.env.COOKIE_NUM != 15) {
+if (process.env.COOKIE_NUM && process.env.COOKIE_NUM != 10) {
     CookieNum = process.env.COOKIE_NUM;
 }
 
@@ -45,18 +52,17 @@ if ($.isNode()) {
     cookiesArr = cookiesArr.filter(item => !!item);
 }
 !(async () => {
-    console.log(`\n请按照脚本注释填写签到变量SEVENDAY_LIST,SEVENDAY_LIST2,SEVENDAY_LIST3\n默认跑前15账号，变量为：COOKIE_NUM`)
+    console.log(`\n请填写签到变量,不同无线签到的变量分别是\n
+SEVENDAY_LIST、SEVENDAY_LIST2、SEVENDAY_LIST3\n
+SEVENDAY_LIST对应链接中的sign/sevenDay/signActivity\n
+SEVENDAY_LIST2对应链接中sign/signActivity2\n
+SEVENDAY_LIST3对应链接中sign/signActivity\n
+默认跑前10账号，变量为：COOKIE_NUM`)
     if (!cookiesArr[0]) {
         $.msg($.name, '【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取', 'https://bean.m.jd.com/bean/signIndex.action', { "open-url": "https://bean.m.jd.com/bean/signIndex.action" });
         return;
     }
-    $.actList = activityIdList.length + activityIdList2.length + activityIdList3.length
-
     for (let i = 0; i < CookieNum; i++) {
-        if ($.actList === 0) {
-            console.log("未设置无线签到活动id,退出脚本")
-            break
-        }
         if (cookiesArr[i]) {
             cookie = cookiesArr[i]
             originCookie = cookiesArr[i]
@@ -118,6 +124,7 @@ if ($.isNode()) {
         $.done();
     })
 
+
 async function signActivity() {
     $.token = null;
     $.secretPin = null;
@@ -126,7 +133,7 @@ async function signActivity() {
     await getToken();
     await task('customer/getSimpleActInfoVo', `activityId=${$.activityId}`, 1)
     if ($.token) {
-        await getMyPingLZ();
+        await getMyPing();
         if ($.secretPin) {
             await task('common/accessLogWithAD', `venderId=${$.venderId}&code=${$.activityType}&pin=${encodeURIComponent($.secretPin)}&activityId=${$.activityId}&pageUrl=${$.activityUrl}&subType=app&adSource=tg_xuanFuTuBiao`, 1);
             console.log(`签到 -> ${$.activityId}`)
@@ -147,7 +154,7 @@ async function signActivity2() {
     await getToken();
     await task('customer/getSimpleActInfoVo', `activityId=${$.activityId}`, 1)
     if ($.token) {
-        await getMyPingLZ();
+        await getMyPing();
         if ($.secretPin) {
             await task('common/accessLogWithAD', `venderId=${$.venderId}&code=${$.activityType}&pin=${encodeURIComponent($.secretPin)}&activityId=${$.activityId}&pageUrl=${$.activityUrl}&subType=app&adSource=tg_xuanFuTuBiao`, 1);
             console.log(`签到 -> ${$.activityId}`)
@@ -168,7 +175,7 @@ async function signActivity3() {
     await getToken();
     await task2('customer/getSimpleActInfoVo', `activityId=${$.activityId}`, 1)
     if ($.token) {
-        await getMyPingCJ();
+        await getMyPing2();
         if ($.secretPin) {
             await task2('common/accessLogWithAD', `venderId=${$.venderId}&code=${$.activityType}&pin=${encodeURIComponent($.secretPin)}&activityId=${$.activityId}&pageUrl=${$.activityUrl}&subType=app&adSource=tg_xuanFuTuBiao`, 1);
             console.log(`签到 -> ${$.activityId}`)
@@ -213,10 +220,12 @@ function task(function_id, body, isCommon = 0) {
                                     if(data){
                                         // console.log(data);
                                         if (data.isOk) {
-                                            console.log("签到成功");
-                                            console.log(data);
+                                            console.log("结果 -> 签到成功");
+                                            if (data.signResult.gift != null) {
+                                                console.log("🎉 获得奖品：" + data.signResult.gift.giftName);
+                                            }
                                         } else {
-                                            console.log(data.msg);
+                                            console.log("结果 -> " + data.msg);
                                         }
                                     }
                                     break
@@ -224,10 +233,12 @@ function task(function_id, body, isCommon = 0) {
                                     if(data){
                                         // console.log(data);
                                         if (data.isOk) {
-                                            console.log("签到成功");
-                                            console.log(data);
+                                            console.log("结果 -> 签到成功");
+                                            if (data.gift != null) {
+                                                console.log("🎉 获得奖品：" + data.gift.giftName);
+                                            }
                                         } else {
-                                            console.log(data.msg);
+                                            console.log("结果 -> " + data.msg);
                                         }
                                     }
                                     break
@@ -246,7 +257,6 @@ function task(function_id, body, isCommon = 0) {
         })
     })
 }
-
 function task2(function_id, body, isCommon = 0) {
     return new Promise(resolve => {
         $.post(taskUrl2(function_id, body, isCommon), async (err, resp, data) => {
@@ -278,24 +288,24 @@ function task2(function_id, body, isCommon = 0) {
                                 case 'sign/sevenDay/wx/signUp':
                                     if(data){
                                         if (data.isOk) {
-                                            console.log("签到成功");
-                                            if (data.signResult.giftName) {
-                                                console.log(data.signResult.giftName);
+                                            console.log("结果 -> 签到成功");
+                                            if (data.signResult.gift != null) {
+                                                console.log("🎉 获得奖品：" + data.signResult.gift.giftName);
                                             }
                                         } else {
-                                            console.log(data.msg);
+                                            console.log("结果 -> " + data.msg);
                                         }
                                     }
                                     break
                                 case 'sign/wx/signUp':
                                     if(data){
                                         if (data.isOk) {
-                                            console.log("签到成功");
-                                            if (data.gift.giftName) {
-                                                console.log(data.gift.giftName);
+                                            console.log("结果 -> 签到成功");
+                                            if (data.gift != null) {
+                                                console.log("🎉 获得奖品：" + data.gift.giftName);
                                             }
                                         } else {
-                                            console.log(data.msg);
+                                            console.log("结果 -> " + data.msg);
                                         }
                                     }
                                     break
@@ -314,7 +324,6 @@ function task2(function_id, body, isCommon = 0) {
         })
     })
 }
-
 function taskUrl(function_id, body, isCommon) {
     return {
         url: isCommon ? `https://lzkj-isv.isvjcloud.com/${function_id}` : `https://lzkj-isv.isvjcloud.com/sign/wx/${function_id}`,
@@ -335,7 +344,6 @@ function taskUrl(function_id, body, isCommon) {
 
     }
 }
-
 function taskUrl2(function_id, body, isCommon) {
     return {
         url: isCommon ? `https://cjhy-isv.isvjcloud.com/${function_id}` : `https://cjhy-isv.isvjcloud.com/sign/wx/${function_id}`,
@@ -357,7 +365,7 @@ function taskUrl2(function_id, body, isCommon) {
     }
 }
 
-function getMyPingLZ() {
+function getMyPing() {
     let opt = {
         url: `https://lzkj-isv.isvjcloud.com/customer/getMyPing`,
         headers: {
@@ -393,7 +401,7 @@ function getMyPingLZ() {
                     if (data) {
                         data = JSON.parse(data)
                         if (data.result) {
-                            $.log(`你好：${data.data.nickname}`)
+                            //$.log(`你好：${data.data.nickname}`)
                             $.pin = data.data.nickname;
                             $.secretPin = data.data.secretPin;
                         } else {
@@ -412,8 +420,7 @@ function getMyPingLZ() {
         })
     })
 }
-
-function getMyPingCJ() {
+function getMyPing2() {
     let opt = {
         url: `https://cjhy-isv.isvjcloud.com/customer/getMyPing`,
         headers: {
@@ -449,7 +456,7 @@ function getMyPingCJ() {
                     if (data) {
                         data = JSON.parse(data)
                         if (data.result) {
-                            $.log(`你好：${data.data.nickname}`)
+                            //$.log(`你好：${data.data.nickname}`)
                             $.pin = data.data.nickname;
                             $.secretPin = data.data.secretPin;
                         } else {
@@ -468,7 +475,6 @@ function getMyPingCJ() {
         })
     })
 }
-
 function getFirstLZCK() {
     return new Promise(resolve => {
         $.get({ url: $.activityUrl ,headers:{"user-agent":$.isNode() ? (process.env.JD_USER_AGENT ? process.env.JD_USER_AGENT : (require('./USER_AGENTS').USER_AGENT)) : ($.getdata('JDUA') ? $.getdata('JDUA') : "jdapp;iPhone;9.4.4;14.3;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1")}}, (err, resp, data) => {
@@ -494,7 +500,6 @@ function getFirstLZCK() {
         })
     })
 }
-
 function getToken() {
     let opt = {
         url: `https://api.m.jd.com/client.action?functionId=isvObfuscator`,
@@ -533,7 +538,11 @@ function getToken() {
         })
     })
 }
+function random(min, max) {
 
+    return Math.floor(Math.random() * (max - min)) + min;
+
+}
 function getUUID(format = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', UpperCase = 0) {
     return format.replace(/[xy]/g, function (c) {
         var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
@@ -545,7 +554,6 @@ function getUUID(format = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', UpperCase 
         return uuid;
     });
 }
-
 function checkCookie() {
     const options = {
         url: "https://me-api.jd.com/user_new/info/GetJDUserInfoUnion",
