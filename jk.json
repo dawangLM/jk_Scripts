@@ -120,7 +120,7 @@
 		"isOpen": true,
 		"name": "微定制瓜分通用",
 		"envName":"jd_wdz_activityId",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_team60.js"
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz.js"
 	},
 	{
 		"isOpen": true,
@@ -196,9 +196,9 @@
 	},
 	{
 		"isOpen": true,
-		"name": "通用游戏任务",
+		"name": "LZ店铺通用游戏任务",
 		"envName":"WXGAME_ACT_ID",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_doudou.js"
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_game.js"
 	},
 	{
 		"isOpen": true,
@@ -246,7 +246,7 @@
 		"isOpen": true,
 		"name": "PKC关注有礼-特效",
 		"envName":"PKC_TXGZYL",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/pkc_txgzyl.js"
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txgzyl.js"
 	},
 	{
 		"isOpen": true,
