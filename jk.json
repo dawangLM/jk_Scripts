@@ -132,7 +132,7 @@
 		"isOpen": true,
 		"name": "分享有礼",
 		"envName":"SHARE_ACTIVITY_ID",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_share.js"
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShareActivity.js"
 	},
 	{
 		"isOpen": true,
@@ -196,9 +196,9 @@
 	},
 	{
 		"isOpen": true,
-		"name": "LZ店铺通用游戏任务",
-		"envName":"WXGAME_ACT_ID",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_game.js"
+		"name": "LZ店铺游戏",
+		"envName":"jd_wxgame_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxgame.js"
 	},
 	{
 		"isOpen": true,
