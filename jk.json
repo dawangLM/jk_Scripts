@@ -271,7 +271,12 @@
 		"name": "M邀请有礼LOREAL",
 		"envName":"activityUrl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_loreal_invite.js"
+	},
+	{
+		"isOpen": true,
+		"name": "品类联合 通用",
+		"envName":"opencard_pl",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardPL.js"
 	}
-   ]
-    
+   ]    
 }
