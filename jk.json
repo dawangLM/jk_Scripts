@@ -232,12 +232,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "店铺开卡",
-		"envName":"SHOP_VENDER_ID",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_card.js"
-	},
-	{
-		"isOpen": true,
 		"name": "LZ加购有礼",
 		"envName":"jd_lzaddCart_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzaddCart.js"
@@ -274,7 +268,7 @@
 	},
 	{
 		"isOpen": true,
-		"name": "品类联合 通用",
+		"name": "品类联合通用",
 		"envName":"opencard_pl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardPL.js"
 	}
