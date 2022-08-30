@@ -232,12 +232,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "LZ加购有礼",
-		"envName":"jd_lzaddCart_activityId",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzaddCart.js"
-	},
-	{
-		"isOpen": true,
 		"name": "PKC关注有礼-特效",
 		"envName":"PKC_TXGZYL",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txgzyl.js"
@@ -271,6 +265,12 @@
 		"name": "品类联合通用",
 		"envName":"opencard_pl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardPL.js"
+	},
+	{
+		"isOpen": true,
+		"name": "加购有礼通用-加密",
+		"envName":"jd_wxCollectionActivity_activityUrl",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.js"
 	}
    ]    
 }
