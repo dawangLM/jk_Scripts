@@ -262,6 +262,12 @@
 	},
 	{
 		"isOpen": true,
+		"name": "M老虎机抽奖",
+		"envName":"M_WX_CENTER_DRAW_URL",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_centerDraw.js"
+	},
+	{
+		"isOpen": true,
 		"name": "品类联合通用",
 		"envName":"opencard_pl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardPL.js"
