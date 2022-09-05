@@ -277,6 +277,42 @@
 		"name": "加购有礼通用-加密",
 		"envName":"jd_wxCollectionActivity_activityUrl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.js"
+	},
+	{
+		"isOpen": true,
+		"name": "CJ知识超人通用活动",
+		"envName":"jd_cjwxKnowledgeActivity_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjwxKnowledgeActivity.js"
+	},
+	{
+		"isOpen": true,
+		"name": "CJ关注店铺有礼",
+		"envName":"jd_cjwxShopFollowActivity_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjwxShopFollowActivity.js"
+	},
+	{
+		"isOpen": true,
+		"name": "CJ完善有礼-加密",
+		"envName":"jd_completeInfoActivity_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_completeInfoActivity.js"
+	},
+	{
+		"isOpen": true,
+		"name": "LZ盖楼有礼",
+		"envName":"jd_wxBuildActivity_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxBuildActivity.js"
+	},
+	{
+		"isOpen": true,
+		"name": "LZ知识超人通用活动",
+		"envName":"jd_wxKnowledgeActivity_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxKnowledgeActivity.js"
+	},
+	{
+		"isOpen": true,
+		"name": "生日礼包和会员等级礼包",
+		"envName":"jd_wxMcLevelAndBirthGifts_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
 	}
    ]    
 }
