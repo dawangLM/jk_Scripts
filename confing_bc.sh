@@ -1,8 +1,5 @@
 #  Bot 监控文件自动变量 2022-09-05
 
-##  粉丝互动 jd_wxFansinter.js
-export wxFansInterActionActivity="*"
-
 ##  joy抽奖机通用 jd_lottery.js
 export JD_Lottery="cd99100415734795a4798547287af02c"
 

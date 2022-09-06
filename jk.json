@@ -226,12 +226,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "粉丝互动",
-		"envName":"wxFansInterActionActivit",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxFansinter.js"
-	},
-	{
-		"isOpen": true,
 		"name": "PKC关注有礼-特效",
 		"envName":"PKC_TXGZYL",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txgzyl.js"
