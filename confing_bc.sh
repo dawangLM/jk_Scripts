@@ -158,4 +158,8 @@ export jd_wxKnowledgeActivity_num="6"
 ## 生日礼包和会员等级礼包 jd_wxMcLevelAndBirthGifts.js
 export jd_wxMcLevelAndBirthGifts_activityId=""
 
+## 品类联合任务 jd_categoryUnion.js
+export jd_categoryUnion_activityId=""
 
+## 品类联合抽奖 jd_categoryUnion_draw.js
+export jd_categoryUnion_activityId=""

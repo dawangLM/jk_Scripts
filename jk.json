@@ -307,6 +307,18 @@
 		"name": "生日礼包和会员等级礼包",
 		"envName":"jd_wxMcLevelAndBirthGifts_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
+	},
+	{
+		"isOpen": true,
+		"name": "品类联合任务",
+		"envName":"jd_categoryUnion_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_categoryUnion.js"
+	},
+	{
+		"isOpen": true,
+		"name": "品类联合抽奖",
+		"envName":"jd_categoryUnion_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_categoryUnion_draw.js"
 	}
    ]    
 }
