@@ -142,18 +142,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "半点京豆雨",
-		"envName":"jd_redrain_half_url",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_redrain_half.js"
-	},
-	{
-		"isOpen": true,
-		"name": "整点京豆雨",
-		"envName":"jd_redrain_url",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_redrain.js"
-	},
-	{
-		"isOpen": true,
 		"name": "大牌联合通用开卡",
 		"envName":"DPLHTY",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
@@ -178,12 +166,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "自动车-jd_joyjd_open通用ID任务",
-		"envName":"comm_activityIDList",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_joyjd_open.js"
-	},
-	{
-		"isOpen": true,
 		"name": "邀好友赢大礼",
 		"envName":"jd_inv_authorCode",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_inviteFriendsGift.py"
@@ -202,21 +184,9 @@
 	},
 	{
 		"isOpen": true,
-		"name": "自动车-电脑配件",
-		"envName":"computer_activityId",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_computer.js"
-	},
-	{
-		"isOpen": true,
 		"name": "CJ组队瓜分京豆",
 		"envName":"jd_cjhy_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjzdgf.js"
-	},
-	{
-		"isOpen": true,
-		"name": "自动车-联合关注+加购+分享领豆",
-		"envName":"welfare",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/fav_and_addcart.js"
 	},
 	{
 		"isOpen": true,
@@ -235,18 +205,6 @@
 		"name": "JOY通用开卡活动",
 		"envName":"JD_JOYOPEN",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_joyopen.js"
-	},
-	{
-		"isOpen": true,
-		"name": "赚京豆-瓜分京豆",
-		"envName":"zjdbody",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/pkc_zjd.js"
-	},
-	{
-		"isOpen": true,
-		"name": "PKC关注有礼",
-		"envName":"PKC_GZYL",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/pkc_gzyl.js"
 	},
 	{
 		"isOpen": true,
