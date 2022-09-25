@@ -319,6 +319,18 @@
 		"name": "品类联合抽奖",
 		"envName":"jd_categoryUnion_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_categoryUnion_draw.js"
+	},
+	{
+		"isOpen": true,
+		"name": "CJ每日抢好礼通用活动",
+		"envName":"jd_cjdaily_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjdaily.js"
+	},
+	{
+		"isOpen": true,
+		"name": "LZ每日抢好礼通用活动",
+		"envName":"jd_daily_activityId",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_daily.js"
 	}
    ]    
 }

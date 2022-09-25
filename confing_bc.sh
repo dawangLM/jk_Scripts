@@ -163,3 +163,9 @@ export jd_categoryUnion_activityId=""
 
 ## 品类联合抽奖 jd_categoryUnion_draw.js
 export jd_categoryUnion_activityId=""
+
+## LZ每日抢好礼通用活动 jd_daily.js
+export jd_categoryUnion_activityId=""
+
+## CJ每日抢好礼通用活动 jd_cjdaily.js
+export jd_cjdaily_activityId=""
