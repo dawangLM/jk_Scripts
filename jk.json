@@ -106,12 +106,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "自动车-众筹许愿池",
-		"envName":"wish_appIdArrList",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wish.js"
-	},
-	{
-		"isOpen": true,
 		"name": "PKC关注有礼-特效",
 		"envName":"PKC_TXGZYL",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/pkc_txgzyl.js"
@@ -130,18 +124,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "分享有礼",
-		"envName":"SHARE_ACTIVITY_ID",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShareActivity.js"
-	},
-	{
-		"isOpen": true,
-		"name": "超级无线店铺签到",
-		"envName":"SEVENDAY_LIST",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
-	},
-	{
-		"isOpen": true,
 		"name": "大牌联合通用开卡",
 		"envName":"DPLHTY",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
@@ -157,12 +139,6 @@
 		"name": "自动车-女装盲盒抽京豆",
 		"envName":"jd_nzmhurl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_nzmh.js"
-	},
-	{
-		"isOpen": true,
-		"name": "自动车-盲盒任务抽京豆",
-		"envName":"jd_mhurlList",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_mhtask.js"
 	},
 	{
 		"isOpen": true,
@@ -250,12 +226,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "LZ知识超人通用活动",
-		"envName":"jd_wxKnowledgeActivity_activityId",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxKnowledgeActivity.js"
-	},
-	{
-		"isOpen": true,
 		"name": "生日礼包和会员等级礼包",
 		"envName":"jd_wxMcLevelAndBirthGifts_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
@@ -295,6 +265,66 @@
 		"name": "加购有礼-监控脚本",
 		"envName":"jd_wxCollectionActivityUrl",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.py"
+	},
+	{
+		"isOpen": true,
+		"name": "jinggeng邀请入会有礼",
+		"envName":"jinggengInviteJoin",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_jinggengInvite.py"
+	},
+	{
+		"isOpen": true,
+		"name": "微定制组队通用脚本",
+		"envName":"jd_wdz_activityId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_wdz.py"
+	},
+	{
+		"isOpen": true,
+		"name": "邀好友赢大礼",
+		"envName":"jd_inv_authorCode",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_inviteFriendsGift.py"
+	},
+	{
+		"isOpen": true,
+		"name": "一键领取店铺会员礼包",
+		"envName":"jd_shopCollectGiftId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_shopCollectGift.py"
+	},
+	{
+		"isOpen": true,
+		"name": "特效关注有礼",
+		"envName":"jd_wxShopGiftId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_wxShopGift.py"
+	},
+	{
+		"isOpen": true,
+		"name": "生日礼包",
+		"envName":"jd_wxBirthGiftsId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_wxBirthGifts.py"
+	},
+	{
+		"isOpen": true,
+		"name": "完善信息有礼",
+		"envName":"jd_wxCompleteInfoId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_wxCompleteInfo.py"
+	},
+	{
+		"isOpen": true,
+		"name": "加购有礼",
+		"envName":"jd_wxCollectionActivityUrl",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_wxCollectionActivity.py"
+	},
+	{
+		"isOpen": true,
+		"name": "通用开卡-shopLeague系列脚本",
+		"envName":"jd_shopLeagueId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_shopLeague_opencard.py"
+	},
+	{
+		"isOpen": true,
+		"name": "通用开卡-joinCommon系列脚本",
+		"envName":"jd_joinCommonId",
+		"scriptPath":"/ql/data/repo/HarbourJ_HarbourToulu_main/jd_joinCommon_opencard.py"
 	}
    ]    
 }
