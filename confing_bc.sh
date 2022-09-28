@@ -122,10 +122,6 @@ export jd_wxCollectionActivity_num="6"
 export jd_cjwxKnowledgeActivity_activityId="11b34bd53b204c6484676437b943e6b7"
 export jd_cjwxKnowledgeActivity_num="6"
 
-## CJ关注店铺有礼 jd_cjwxShopFollowActivity.js
-export jd_cjwxShopFollowActivity_activityId=""
-export jd_cjwxShopFollowActivity_num="6"
-
 ## CJ完善有礼-加密 jd_completeInfoActivity.js
 export jd_completeInfoActivity_activityId=""
 export jd_completeInfoActivity_venderId=""
@@ -151,3 +147,9 @@ export jd_categoryUnion_activityId=""
 
 ## CJ每日抢好礼通用活动 jd_cjdaily.js
 export jd_cjdaily_activityId=""
+
+## 店铺礼包特效 jd_wxShopGift.js
+export jd_wxShopGift_activityUrl=""
+
+## 加购有礼-监控脚本 jd_wxCollectionActivity.py
+export jd_wxCollectionActivityUrl=""

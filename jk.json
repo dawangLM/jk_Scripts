@@ -238,12 +238,6 @@
 	},
 	{
 		"isOpen": true,
-		"name": "CJ关注店铺有礼",
-		"envName":"jd_cjwxShopFollowActivity_activityId",
-		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjwxShopFollowActivity.js"
-	},
-	{
-		"isOpen": true,
 		"name": "CJ完善有礼-加密",
 		"envName":"jd_completeInfoActivity_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_completeInfoActivity.js"
@@ -289,6 +283,18 @@
 		"name": "LZ每日抢好礼通用活动",
 		"envName":"jd_daily_activityId",
 		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_daily.js"
+	},
+	{
+		"isOpen": true,
+		"name": "店铺礼包特效",
+		"envName":"jd_wxShopGift_activityUrl",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopGift.js"
+	},
+	{
+		"isOpen": true,
+		"name": "加购有礼-监控脚本",
+		"envName":"jd_wxCollectionActivityUrl",
+		"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.py"
 	}
    ]    
 }
