@@ -104,6 +104,7 @@ export jd_wxBuildActivity_activityId="dcb8abb87c924365b853f48cca181341"
 
 ## 生日礼包和会员等级礼包 jd_wxMcLevelAndBirthGifts.js
 export jd_wxMcLevelAndBirthGifts_activityId="f5cf8247646c417eb366ba87c7d83b24"
+export jd_wxMcLevelAndBirthGifts_openCard="true"
 
 ## 品类联合任务 jd_categoryUnion.js
 export jd_categoryUnion_activityId="b0344db892a44021b6e012c16271e4b0"
