@@ -36,446 +36,446 @@
 			"isOpen": true,
 			"name": "lzkj幸运抽奖",
 			"envName":"jd_lzkj_wxDrawActivity_Id",
-			"scriptPath":"/ql/data/repo/Aurora210_jk_Scripts/jd_lzkj_wxDrawActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxDrawActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj加购物车抽奖",
 			"envName":"jd_lzkj_wxCollectionActivityId",
-			"scriptPath":"/ql/data/repo/Aurora211_jk_Scripts/jd_lzkj_wxCollectionActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxCollectionActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy幸运抽奖",
 			"envName":"jd_cjhy_wxDrawActivity_Id",
-			"scriptPath":"/ql/data/repo/Aurora212_jk_Scripts/jd_cjhy_wxDrawActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxDrawActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy加购物车抽奖",
 			"envName":"jd_cjhy_wxCollectionActivityId",
-			"scriptPath":"/ql/data/repo/Aurora213_jk_Scripts/jd_cjhy_wxCollectionActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxCollectionActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "邀好友赢大礼",
 			"envName":"jd_inv_authorCode",
-			"scriptPath":"/ql/data/repo/Aurora214_jk_Scripts/jd_inviteFriendsGift.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_inviteFriendsGift.py"
 		},
 		{
 			"isOpen": true,
 			"name": "加购有礼-JK",
 			"envName":"jd_wxCollectionActivityUrl",
-			"scriptPath":"/ql/data/repo/Aurora215_jk_Scripts/jd_wxCollectionActivity.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.py"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy游戏活动",
 			"envName":"jd_cjhy_wxGameActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora216_jk_Scripts/jd_cjhy_wxGameActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxGameActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "CJ组队瓜分京豆",
 			"envName":"jd_cjhy_activityId",
-			"scriptPath":"/ql/data/repo/Aurora217_jk_Scripts/jd_cjzdgf.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjzdgf.js"
 		},
 		{
 			"isOpen": true,
 			"name": "LZ组队瓜分京豆",
 			"envName":"jd_zdjr_activityId",
-			"scriptPath":"/ql/data/repo/Aurora218_jk_Scripts/jd_zdjr.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_zdjr.js"
 		},
 		{
 			"isOpen": true,
 			"name": "店铺礼包特效",
 			"envName":"jd_wxShopGift_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora219_jk_Scripts/jd_wxShopGift.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopGift.js"
 		},
 		{
 			"isOpen": true,
 			"name": "关注店铺抽奖",
 			"envName":"jd_wxShopFollowActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora220_jk_Scripts/jd_wxShopFollowActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopFollowActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj店铺礼包",
 			"envName":"jd_lzkj_wxShopGift_ids",
-			"scriptPath":"/ql/data/repo/Aurora221_jk_Scripts/jd_lzkj_wxShopGift.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxShopGift.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy店铺礼包",
 			"envName":"jd_cjhy_wxShopGift_ids",
-			"scriptPath":"/ql/data/repo/Aurora222_jk_Scripts/jd_cjhy_wxShopGift.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxShopGift.js"
 		},
 		{
 			"isOpen": true,
 			"name": "分享有礼",
 			"envName":"jd_fxyl_activityId",
-			"scriptPath":"/ql/data/repo/Aurora223_jk_Scripts/jd_share.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_share.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj关注店铺有礼",
 			"envName":"jd_lzkj_wxShopFollowActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora224_jk_Scripts/jd_lzkj_wxShopFollowActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxShopFollowActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj知识超人",
 			"envName":"jd_lzkj_wxKnowledgeActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora225_jk_Scripts/jd_lzkj_wxKnowledgeActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxKnowledgeActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj游戏活动",
 			"envName":"jd_lzkj_wxGameActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora226_jk_Scripts/jd_lzkj_wxGameActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxGameActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj盖楼有礼",
 			"envName":"jd_lzkj_wxBuildActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora227_jk_Scripts/jd_lzkj_wxBuildActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxBuildActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj签到有礼",
 			"envName":"jd_lzkj_signActivity2_ids",
-			"scriptPath":"/ql/data/repo/Aurora228_jk_Scripts/jd_lzkj_signActivity2.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_signActivity2.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj七日签到",
 			"envName":"lzkj_sevenDay_ids",
-			"scriptPath":"/ql/data/repo/Aurora229_jk_Scripts/jd_lzkj_sevenDay.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_sevenDay.js"
 		},
 		{
 			"isOpen": true,
 			"name": "lzkj每日抢",
 			"envName":"jd_lzkj_daily_ids",
-			"scriptPath":"/ql/data/repo/Aurora230_jk_Scripts/jd_lzkj_daily.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_daily.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy关注店铺有礼",
 			"envName":"jd_cjhy_wxShopFollowActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora231_jk_Scripts/jd_cjhy_wxShopFollowActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxShopFollowActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy生日礼",
 			"envName":"jd_cjhy_wxMcLevelAndBirthGifts_ids",
-			"scriptPath":"/ql/data/repo/Aurora232_jk_Scripts/jd_cjhy_wxMcLevelAndBirthGifts.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxMcLevelAndBirthGifts.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy知识超人",
 			"envName":"jd_cjhy_wxKnowledgeActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora233_jk_Scripts/jd_cjhy_wxKnowledgeActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxKnowledgeActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy签到有礼",
 			"envName":"jd_cjhy_signActivity_ids",
-			"scriptPath":"/ql/data/repo/Aurora234_jk_Scripts/jd_cjhy_signActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_signActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy七日签到",
 			"envName":"jd_cjhy_sevenDay_ids",
-			"scriptPath":"/ql/data/repo/Aurora235_jk_Scripts/jd_cjhy_sevenDay.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_sevenDay.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy每日抢",
 			"envName":"jd_cjhy_daily_ids",
-			"scriptPath":"/ql/data/repo/Aurora236_jk_Scripts/jd_cjhy_daily.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_daily.js"
 		},
 		{
 			"isOpen": true,
 			"name": "cjhy完善信息",
 			"envName":"jd_cjhy_completeInfoActivity_Ids",
-			"scriptPath":"/ql/data/repo/Aurora237_jk_Scripts/jd_cjhy_completeInfoActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_completeInfoActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "CJ每日抢好礼通用活动",
 			"envName":"jd_cjdaily_activityId",
-			"scriptPath":"/ql/data/repo/Aurora238_jk_Scripts/jd_cjdaily.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjdaily.js"
 		},
 		{
 			"isOpen": true,
 			"name": "LZ每日抢好礼通用活动",
 			"envName":"jd_daily_activityId",
-			"scriptPath":"/ql/data/repo/Aurora239_jk_Scripts/jd_daily.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_daily.js"
 		},
 		{
 			"isOpen": true,
 			"name": "大牌联合通用开卡",
 			"envName":"DPLHTY",
-			"scriptPath":"/ql/data/repo/Aurora240_jk_Scripts/jd_opencardDPLHTY.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
 		},
 		{
 			"isOpen": true,
 			"name": "粉丝互动通用活动",
 			"envName":"jd_wxFansInterActionActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora241_jk_Scripts/jd_wxFansInterActionActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxFansInterActionActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "LZ店铺游戏",
 			"envName":"jd_wxgame_activityId",
-			"scriptPath":"/ql/data/repo/Aurora242_jk_Scripts/jd_wxgame.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxgame.js"
 		},
 		{
 			"isOpen": true,
 			"name": "LZ让福袋飞通用活动",
 			"envName":"jd_wxUnPackingActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora243_jk_Scripts/jd_wxUnPackingActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxUnPackingActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "店铺特效关注有礼-JK",
 			"envName":"jd_wxShopGiftId",
-			"scriptPath":"/ql/data/repo/Aurora244_jk_Scripts/jd_wxShopGift.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopGift.py"
 		},
 		{
 			"isOpen": true,
 			"name": "完善信息有礼-监控脚本",
 			"envName":"jd_wxCompleteInfoId",
-			"scriptPath":"/ql/data/repo/Aurora245_jk_Scripts/jd_wxCompleteInfo.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCompleteInfo.py"
 		},
 		{
 			"isOpen": true,
 			"name": "生日礼包-监控脚本",
 			"envName":"jd_wxBirthGiftsId",
-			"scriptPath":"/ql/data/repo/Aurora246_jk_Scripts/jd_wxBirthGifts.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxBirthGifts.py"
 		},
 		{
 			"isOpen": true,
 			"name": "微定制组队瓜分-监控脚本",
 			"envName":"jd_wdz_activityId",
-			"scriptPath":"/ql/data/repo/Aurora247_jk_Scripts/jd_wdz.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz.py"
 		},
 		{
 			"isOpen": true,
 			"name": "店铺会员礼包-监控脚本",
 			"envName":"jd_shopCollectGiftId",
-			"scriptPath":"/ql/data/repo/Aurora248_jk_Scripts/jd_shopCollectGift.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopCollectGift.py"
 		},
 		{
 			"isOpen": true,
 			"name": "通用开卡-joinCommon系列",
 			"envName":"jd_joinCommonId",
-			"scriptPath":"/ql/data/repo/Aurora249_jk_Scripts/jd_joinCommon_opencard.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_joinCommon_opencard.py"
 		},
 		{
 			"isOpen": true,
 			"name": "jinggeng邀请入会有礼",
 			"envName":"redis_url",
-			"scriptPath":"/ql/data/repo/Aurora250_jk_Scripts/jd_jinggengInvite.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_jinggengInvite.py"
 		},
 		{
 			"isOpen": true,
 			"name": "微定制-开福袋",
 			"envName":"jd_wdz_openLuckBag_activityId",
-			"scriptPath":"/ql/data/repo/Aurora251_jk_Scripts/jd_wdz_openLuckBag.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz_openLuckBag.js"
 		},
 		{
 			"isOpen": true,
 			"name": "店铺抽奖通用活动-加密",
 			"envName":"LUCK_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora252_jk_Scripts/jd_luck_draw.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_luck_draw.js"
 		},
 		{
 			"isOpen": true,
 			"name": "LZ盖楼有礼",
 			"envName":"jd_wxBuildActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora253_jk_Scripts/jd_wxBuildActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxBuildActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "入会开卡领取礼包通用",
 			"envName":"VENDER_ID",
-			"scriptPath":"/ql/data/repo/Aurora254_jk_Scripts/jd_card_force.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_card_force.js"
 		},
 		{
 			"isOpen": true,
 			"name": "joy抽奖机通用",
 			"envName":"jd_lotteryId",
-			"scriptPath":"/ql/data/repo/Aurora255_jk_Scripts/jd_lottery.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lottery.js"
 		},
 		{
 			"isOpen": true,
 			"name": "joy通用开卡",
 			"envName":"jd_joyOpenId",
-			"scriptPath":"/ql/data/repo/Aurora256_jk_Scripts/jd_opencardJoy.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardJoy.js"
 		},
 		{
 			"isOpen": true,
 			"name": "关注有礼-自动解析通用",
 			"envName":"whx_drawShopGift",
-			"scriptPath":"/ql/data/repo/Aurora257_jk_Scripts/jd_whx_drawShopGift.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_whx_drawShopGift.js"
 		},
 		{
 			"isOpen": true,
 			"name": "品类联合-通用脚本",
 			"envName":"categoryUnion_activityId",
-			"scriptPath":"/ql/data/repo/Aurora258_jk_Scripts/jd_lzdz_categoryUnion.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzdz_categoryUnion.js"
 		},
 		{
 			"isOpen": true,
 			"name": "品类联合抽奖",
 			"envName":"jd_categoryUnion_activityId",
-			"scriptPath":"/ql/data/repo/Aurora259_jk_Scripts/jd_categoryUnion_draw.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_categoryUnion_draw.js"
 		},
 		{
 			"isOpen": true,
 			"name": "品类联合任务",
 			"envName":"jd_categoryUnion_activityId",
-			"scriptPath":"/ql/data/repo/Aurora260_jk_Scripts/jd_categoryUnion.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_categoryUnion.js"
 		},
 		{
 			"isOpen": true,
 			"name": "加购有礼通用-加密",
 			"envName":"jd_wxCollectionActivity_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora261_jk_Scripts/jd_wxCollectionActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M微定制",
 			"envName":"M_WX_WDZ_ID",
-			"scriptPath":"/ql/data/repo/Aurora262_jk_Scripts/m_jd_wx_microDz.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_microDz.js"
 		},
 		{
 			"isOpen": true,
 			"name": "生日礼包和会员等级礼包",
 			"envName":"jd_wxMcLevelAndBirthGifts_activityId",
-			"scriptPath":"/ql/data/repo/Aurora263_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
 		},
 		{
 			"isOpen": true,
 			"name": "CJ完善有礼-加密",
 			"envName":"jd_completeInfoActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora264_jk_Scripts/jd_completeInfoActivity.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_completeInfoActivity.js"
 		},
 		{
 			"isOpen": true,
 			"name": "通用开卡-shopLeague系列",
 			"envName":"jd_shopLeagueId",
-			"scriptPath":"/ql/data/repo/Aurora265_jk_Scripts/jd_shopLeague_opencard.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopLeague_opencard.py"
 		},
 		{
 			"isOpen": true,
 			"name": "M老虎机抽奖",
 			"envName":"M_WX_CENTER_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora266_jk_Scripts/m_jd_wx_centerDraw.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_centerDraw.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M幸运抽奖",
 			"envName":"M_WX_LUCK_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora267_jk_Scripts/m_jd_wx_luckDraw.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_luckDraw.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M加购有礼",
 			"envName":"M_WX_ADD_CART_URL",
-			"scriptPath":"/ql/data/repo/Aurora268_jk_Scripts/m_jd_wx_addCart.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_addCart.js"
 		},
 		
 		{
 			"isOpen": true,
 			"name": "品类联合 通用",
 			"envName":"opencard_pl",
-			"scriptPath":"/ql/data/repo/Aurora269_jk_Scripts/jd_opencardPL.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardPL.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M关注有礼无线",
 			"envName":"M_WX_SHOP_GIFT_URL",
-			"scriptPath":"/ql/data/repo/Aurora270_jk_Scripts/m_jd_wx_shopGift.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_shopGift.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M关注抽奖",
 			"envName":"M_WX_FOLLOW_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora271_jk_Scripts/m_jd_wx_followDraw.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_followDraw.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M盖楼领奖",
 			"envName":"M_WX_BUILD_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora272_jk_Scripts/m_jd_wx_buildDraw.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_buildDraw.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M关注有礼",
 			"envName":"M_FOLLOW_SHOP_ARGV",
-			"scriptPath":"/ql/data/repo/Aurora273_jk_Scripts/m_jd_follow_shop.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_follow_shop.js"
 		},
 		{
 			"isOpen": true,
 			"name": "LZ刮刮乐抽奖通用活动-加密",
 			"envName":"jd_drawCenter_activityId",
-			"scriptPath":"/ql/data/repo/Aurora274_jk_Scripts/jd_drawCenter.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_drawCenter.js"
 		},
 		{
 			"isOpen": true,
 			"name": "读秒拼手速通用活动",
 			"envName":"jd_wxSecond_activityId",
-			"scriptPath":"/ql/data/repo/Aurora275_jk_Scripts/jd_wxSecond.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxSecond.js"
 		},
 		{
 			"isOpen": true,
 			"name": "邀请赢大礼",
 			"envName":"yhyactivityId",
-			"scriptPath":"/ql/data/repo/Aurora276_jk_Scripts/jd_yqhy.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_yqhy.py"
 		},
 		{
 			"isOpen": true,
 			"name": "PKC-特效关注有礼",
 			"envName":"PKC_TXGZYL",
-			"scriptPath":"/ql/data/repo/Aurora277_jk_Scripts/jd_txgzyl.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txgzyl.js"
 		},
 		{
 			"isOpen": true,
 			"name": "集卡抽奖通用活动",
 			"envName":"jd_wxCollectCard_activityId",
-			"scriptPath":"/ql/data/repo/Aurora278_jk_Scripts/jd_wxCollectCard.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectCard.js"
 		},
 		{
 			"isOpen": true,
 			"name": "购物车锦鲤通用活动",
 			"envName":"jd_wxCartKoi_activityId",
-			"scriptPath":"/ql/data/repo/Aurora279_jk_Scripts/jd_wxCartKoi.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCartKoi.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M集卡抽奖",
 			"envName":"M_WX_COLLECT_CARD_URL",
-			"scriptPath":"/ql/data/repo/Aurora280_jk_Scripts/m_jd_wx_collectCard.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_collectCard.js"
 		},
 		{
 			"isOpen": true,
 			"name": "M收藏有礼",
 			"envName":"M_FAV_SHOP_ARGV",
-			"scriptPath":"/ql/data/repo/Aurora281_jk_Scripts/m_jd_fav_shop_gift.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_fav_shop_gift.js"
 		},
 		{
 			"isOpen": true,
 			"name": "自动车-女装盲盒抽京豆",
 			"envName":"jd_nzmhurl",
-			"scriptPath":"/ql/data/repo/Aurora282_jk_Scripts/jd_nzmh.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_nzmh.js"
 		},
 		{
 			"isOpen": true,
 			"name": "自动车-jd_joyjd_open通用ID任务",
 			"envName":"comm_activityIDList",
-			"scriptPath":"/ql/data/repo/Aurora283_jk_Scripts/jd_joyjd_open.js"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_joyjd_open.js"
 		}
 
    ]    
