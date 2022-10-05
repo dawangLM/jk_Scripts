@@ -243,3 +243,5 @@ export jd_nzmhurl="2022-10-02"
 ## 自动车-jd_joyjd_open通用ID任务 jd_joyjd_open.js
 export comm_activityIDList="2022-10-02"
 
+## txzj抽奖 jd_txzj_lottery.js
+export jd_txzj_lottery_id="2022-10-02"

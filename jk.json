@@ -476,6 +476,12 @@
 			"name": "自动车-jd_joyjd_open通用ID任务",
 			"envName":"comm_activityIDList",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_joyjd_open.js"
+		},
+		{
+			"isOpen": true,
+			"name": "txzj抽奖",
+			"envName":"jd_txzj_lottery_id",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_lottery.js"
 		}
 
    ]    
