@@ -482,6 +482,12 @@
 			"name": "txzj抽奖",
 			"envName":"jd_txzj_lottery_id",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_lottery.js"
+		},
+		{
+			"isOpen": true,
+			"name": "txzj抽奖",
+			"envName":"jd_lottery_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_lottery.js"
 		}
 
    ]    
