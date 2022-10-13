@@ -245,3 +245,15 @@ export comm_activityIDList="2022-10-02"
 
 ## txzj抽奖 jd_txzj_lottery.js
 export jd_txzj_lottery_id="2022-10-02"
+
+## txzj一键关注 领取好礼 jd_txzj_cart_item.js
+export jd_txzj_cart_item_id="2022-10-13"
+
+## txzj 签到 jd_txzj_sign_in.js
+export jd_txzj_sign_in_id="2022-10-13"
+
+## 收藏大师-关注有礼 jd_txzj_collect_item.js
+export jd_collect_item_activityUrl="2022-10-13"
+
+## 收藏大师-关注商品 jd_txzj_collect_shop.js
+export jd_collect_shop_activityUrl="2022-10-13"

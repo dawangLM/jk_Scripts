@@ -488,6 +488,30 @@
 			"name": "txzj抽奖",
 			"envName":"jd_lottery_activityUrl",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_lottery.js"
+		},
+		{
+			"isOpen": true,
+			"name": "txzj一键关注 领取好礼",
+			"envName":"jd_txzj_cart_item_id",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_cart_item.js"
+		},
+		{
+			"isOpen": true,
+			"name": "txzj 签到",
+			"envName":"jd_txzj_sign_in_id",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_sign_in.js"
+		},
+		{
+			"isOpen": true,
+			"name": "收藏大师-关注有礼",
+			"envName":"jd_collect_item_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_item.js"
+		},
+		{
+			"isOpen": true,
+			"name": "收藏大师-关注商品",
+			"envName":"jd_collect_shop_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_shop.js"
 		}
 
    ]    
