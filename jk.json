@@ -386,13 +386,6 @@
 			"envName":"M_WX_ADD_CART_URL",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_addCart.js"
 		},
-		
-		{
-			"isOpen": true,
-			"name": "品类联合 通用",
-			"envName":"opencard_pl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardPL.js"
-		},
 		{
 			"isOpen": true,
 			"name": "M关注有礼无线",
@@ -473,12 +466,6 @@
 		},
 		{
 			"isOpen": true,
-			"name": "自动车-jd_joyjd_open通用ID任务",
-			"envName":"comm_activityIDList",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_joyjd_open.js"
-		},
-		{
-			"isOpen": true,
 			"name": "txzj抽奖",
 			"envName":"jd_txzj_lottery_id",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_lottery.js"
@@ -512,7 +499,36 @@
 			"name": "收藏大师-关注商品",
 			"envName":"jd_collect_shop_activityUrl",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_shop.js"
+		},
+		{
+			"isOpen": true,
+			"name": "M粉丝红包",
+			"envName":"M_FANS_RED_PACKET_URL",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_fans_redPackt.js"
+		},
+		{
+			"isOpen": true,
+			"name": "M店铺扫活动",
+			"envName":"M_FANS_RED_PACKET_URL",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_active_scan.js"
+		},
+		{
+			"isOpen": true,
+			"name": "超级无线店铺签到",
+			"envName":"LZKJ_SEVENDAY",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
+		},
+		{
+			"isOpen": true,
+			"name": "超级无线店铺签到",
+			"envName":"CJHY_SEVENDAY",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
+		},
+		{
+			"isOpen": true,
+			"name": "知识超人",
+			"envName":"jd_wxKnowledgeActivity_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxKnowledgeActivity.js"
 		}
-
    ]    
 }

@@ -195,9 +195,6 @@ export M_WX_LUCK_DRAW_URL="https://lzkj-isv.isvjd.com/wxDrawActivity/activity/ac
 ## M加购有礼 m_jd_wx_addCart.js
 export M_WX_ADD_CART_URL="https://cjhy-isv.isvjcloud.com/wxCollectionActivity/activity2/ee4125340de1434ebb0027f5cd45c7f5?activityId=ee4125340de1434ebb0027f5cd45c7f5"
 
-## 品类联合 通用 jd_opencardPL.js
-export opencard_pl="2022-10-02"
-export opencard_draw=" "
 ## M关注有礼无线 m_jd_wx_shopGift.js
 export M_WX_SHOP_GIFT_URL="https://lzkj-isv.isvjcloud.com/wxShopGift/activity?activityId=cbd8700d08174bf984c9f3d985f68a6f"
 
@@ -240,9 +237,6 @@ export M_FAV_SHOP_ARGV="2022-10-02"
 ## 自动车-女装盲盒抽京豆 jd_nzmh.js
 export jd_nzmhurl="2022-10-02"
 
-## 自动车-jd_joyjd_open通用ID任务 jd_joyjd_open.js
-export comm_activityIDList="2022-10-02"
-
 ## txzj抽奖 jd_txzj_lottery.js
 export jd_txzj_lottery_id="2022-10-02"
 export jd_joinCommon_uuid="你的助力码"
@@ -258,3 +252,23 @@ export jd_collect_item_activityUrl="2022-10-13"
 
 ## 收藏大师-关注商品 jd_txzj_collect_shop.js
 export jd_collect_shop_activityUrl="2022-10-13"
+
+## M粉丝红包 m_jd_fans_redPackt.js
+export M_FANS_RED_PACKET_URL="2022-10-19"
+
+## M店铺扫活动 m_jd_active_scan.js
+export 
+
+## 超级无线店铺签到 jd_sevenDay.js
+export LZKJ_SEVENDAY="2022-10-19"
+export LZKJ_SIGN="2022-10-19"
+export CJHY_SEVENDAY="2022-10-19"
+export CJHY_SIGN="2022-10-19"
+export jd_sevenDay_blacklist="" ## 黑名单 用&隔开 pin值
+
+## 知识超人 jd_wxKnowledgeActivity.js
+export jd_wxKnowledgeActivity_activityUrl="2022-10-19"\
+
+
+
+
