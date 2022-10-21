@@ -211,10 +211,6 @@ export M_FOLLOW_SHOP_ARGV="2022-10-02"
 export jd_drawCenter_activityId="2c6e7150603941bab8495f3b7964806f"
 export jd_drawCenter_addCart="2022-10-02"
 
-## 读秒拼手速通用活动 jd_wxSecond.js
-export jd_wxSecond_activityId="e070933df41f4e55bc29539a6187b2cb"
-export jd_wxSecond_addCart="2022-10-02"
-
 ## 邀请赢大礼 jd_yqhy.py
 export yhyactivityId="2022-10-02"
 export yhyauthorCode="2022-10-02"
