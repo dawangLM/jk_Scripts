@@ -95,7 +95,7 @@
 		{
 			"isOpen": true,
 			"name": "关注店铺抽奖",
-			"envName":"jd_wxShopFollowActivity_activityId",
+			"envName":"jd_wxShopFollowActivity_activityUrl",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopFollowActivity.js"
 		},
 		{
@@ -258,7 +258,7 @@
 			"isOpen": true,
 			"name": "微定制组队瓜分-监控脚本",
 			"envName":"jd_wdz_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz.py"
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz.js"
 		},
 		{
 			"isOpen": true,
@@ -523,7 +523,18 @@
 			"name": "知识超人",
 			"envName":"jd_wxKnowledgeActivity_activityUrl",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxKnowledgeActivity.js"
+		},
+		{
+			"isOpen": true,
+			"name": "微定制瓜分福袋-加密",
+			"envName":"jd_wdzfd_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdzfd.js"
+		},
+		{
+			"isOpen": true,
+			"name": "读秒拼手速通用活动",
+			"envName":"jd_wxSecond_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxSecond.js"
 		}
-
    ]    
 }
