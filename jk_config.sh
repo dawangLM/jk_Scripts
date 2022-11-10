@@ -173,8 +173,6 @@ export jd_wxCollectionActivity_activityUrl="https://cjhy-isv.isvjcloud.com/wxCol
 export jd_wxCollectionActivity_openCard="2022-10-02"
 export jd_wxCollectionActivity_num="2022-10-02"
 
-## M微定制 m_jd_wx_microDz.js
-export M_WX_WDZ_ID="2022-10-02"
 
 ## 生日礼包和会员等级礼包 jd_wxMcLevelAndBirthGifts.js
 export jd_wxMcLevelAndBirthGifts_activityId="8933acd4405342319dfd614260478e12"
@@ -186,26 +184,8 @@ export jd_completeInfoActivity_venderId="1000422000"
 ## 通用开卡-shopLeague系列 jd_shopLeague_opencard.py
 export jd_shopLeagueId="2022-10-02"
 
-## M老虎机抽奖 m_jd_wx_centerDraw.js
-export M_WX_CENTER_DRAW_URL="https://lzkj-isv.isvjcloud.com/drawCenter/activity?activityId=662bacf0590f412d9afef81d50f60ca9"
-
-## M幸运抽奖 m_jd_wx_luckDraw.js
-export M_WX_LUCK_DRAW_URL="https://lzkj-isv.isvjcloud.com/lzclient/1666658464500/cjwx/common/entry.html?activityId=932c1fe16b54407dbf4f942a54fabfcd&gameType=wxTurnTable&shopid=1000076229"
-
-## M加购有礼 m_jd_wx_addCart.js
-export M_WX_ADD_CART_URL="https://lzkj-isv.isvjcloud.com/wxCollectionActivity/activity2/6cc1104af25e47ee942324050ce7160d?activityId=6cc1104af25e47ee942324050ce7160d"
-
 ## M关注有礼无线 m_jd_wx_shopGift.js
 export M_WX_SHOP_GIFT_URL="https://lzkj-isv.isvjcloud.com/wxShopGift/activity?activityId=cbd8700d08174bf984c9f3d985f68a6f"
-
-## M关注抽奖 m_jd_wx_followDraw.js
-export M_WX_FOLLOW_DRAW_URL="https://lzkj-isv.isvjcloud.com/wxShopFollowActivity/activity/ec4ad4f4c937476bb10196994f4fa1ff?activityId=ec4ad4f4c937476bb10196994f4fa1ff&adsource=tg_xuanFuTuBiao"
-
-## M盖楼领奖 m_jd_wx_buildDraw.js
-export M_WX_BUILD_DRAW_URL="2022-10-02"
-
-## M关注有礼 m_jd_follow_shop.js
-export M_FOLLOW_SHOP_ARGV="2022-10-02"
 
 ## LZ刮刮乐抽奖通用活动-加密 jd_drawCenter.js
 export jd_drawCenter_activityId="24779fe84d124e92b2b5da51e69b23f9"
@@ -223,12 +203,6 @@ export jd_wxCollectCard_activityId="232da369ac5d4eb987f97df347558d90"
 
 ## 购物车锦鲤通用活动 jd_wxCartKoi.js
 export jd_wxCartKoi_activityId="9c15e41ccf9d490ba4fb309a80ec5d72"
-
-## M集卡抽奖 m_jd_wx_collectCard.js
-export M_WX_COLLECT_CARD_URL="https://lzkj-isv.isvjcloud.com/wxCollectCard/activity?activityId=8621d8424e1e4bc99783321ba2bf3a19"
-
-## M收藏有礼 m_jd_fav_shop_gift.js
-export M_FAV_SHOP_ARGV="2022-10-02"
 
 ## 自动车-女装盲盒抽京豆 jd_nzmh.js
 export jd_nzmhurl="2022-10-02"
@@ -249,9 +223,6 @@ export jd_collect_item_activityUrl="2022-10-13"
 ## 收藏大师-关注商品 jd_txzj_collect_shop.js
 export jd_collect_shop_activityUrl="2022-10-13"
 export jd_lottery_activityUrl="https://txzj-isv.isvjcloud.com/lottery/home?a=Vm1BQTlNZEZFbnIwLzF5OFNn"
-
-## M粉丝红包 m_jd_fans_redPackt.js
-export M_FANS_RED_PACKET_URL="2022-10-19"
 
 ## M店铺扫活动 m_jd_active_scan.js
 export 

@@ -346,12 +346,6 @@
 		},
 		{
 			"isOpen": true,
-			"name": "M微定制",
-			"envName":"M_WX_WDZ_ID",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_microDz.js"
-		},
-		{
-			"isOpen": true,
 			"name": "生日礼包和会员等级礼包",
 			"envName":"jd_wxMcLevelAndBirthGifts_activityId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
@@ -370,45 +364,9 @@
 		},
 		{
 			"isOpen": true,
-			"name": "M老虎机抽奖",
-			"envName":"M_WX_CENTER_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_centerDraw.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M幸运抽奖",
-			"envName":"M_WX_LUCK_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_luckDraw.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M加购有礼",
-			"envName":"M_WX_ADD_CART_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_addCart.js"
-		},
-		{
-			"isOpen": true,
 			"name": "M关注有礼无线",
 			"envName":"M_WX_SHOP_GIFT_URL",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_shopGift.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M关注抽奖",
-			"envName":"M_WX_FOLLOW_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_followDraw.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M盖楼领奖",
-			"envName":"M_WX_BUILD_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_buildDraw.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M关注有礼",
-			"envName":"M_FOLLOW_SHOP_ARGV",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_follow_shop.js"
 		},
 		{
 			"isOpen": true,
@@ -439,18 +397,6 @@
 			"name": "购物车锦鲤通用活动",
 			"envName":"jd_wxCartKoi_activityId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCartKoi.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M集卡抽奖",
-			"envName":"M_WX_COLLECT_CARD_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_collectCard.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M收藏有礼",
-			"envName":"M_FAV_SHOP_ARGV",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_fav_shop_gift.js"
 		},
 		{
 			"isOpen": true,
@@ -493,12 +439,6 @@
 			"name": "收藏大师-关注商品",
 			"envName":"jd_collect_shop_activityUrl",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_shop.js"
-		},
-		{
-			"isOpen": true,
-			"name": "M粉丝红包",
-			"envName":"M_FANS_RED_PACKET_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_fans_redPackt.js"
 		},
 		{
 			"isOpen": true,
