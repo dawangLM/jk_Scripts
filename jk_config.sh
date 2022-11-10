@@ -132,7 +132,7 @@ export jd_shopCollectGiftId=" "
 export jd_joinCommonId="79be7a7fd4834488b1125018f99771ae&1000000904"
 
 ## jinggeng邀请入会有礼 jd_jinggengInvite.py
-export redis_url=" "
+export redis_url="1"
 
 ## 微定制-开福袋 jd_wdz_openLuckBag.js
 export jd_wdz_openLuckBag_activityId="2022-10-02"
@@ -172,7 +172,6 @@ export jd_categoryUnion_activityId="2022-10-02"
 export jd_wxCollectionActivity_activityUrl="https://cjhy-isv.isvjcloud.com/wxCollectionActivity/activity/activity?activityId=e9e1b76e0ac84b4d93c049f6a1929d3d"
 export jd_wxCollectionActivity_openCard="2022-10-02"
 export jd_wxCollectionActivity_num="2022-10-02"
-
 
 ## 生日礼包和会员等级礼包 jd_wxMcLevelAndBirthGifts.js
 export jd_wxMcLevelAndBirthGifts_activityId="8933acd4405342319dfd614260478e12"
@@ -223,9 +222,6 @@ export jd_collect_item_activityUrl="2022-10-13"
 ## 收藏大师-关注商品 jd_txzj_collect_shop.js
 export jd_collect_shop_activityUrl="2022-10-13"
 export jd_lottery_activityUrl="https://txzj-isv.isvjcloud.com/lottery/home?a=Vm1BQTlNZEZFbnIwLzF5OFNn"
-
-## M店铺扫活动 m_jd_active_scan.js
-export 
 
 ## 超级无线店铺签到 jd_sevenDay.js
 export LZKJ_SEVENDAY="2022-10-19"

@@ -442,12 +442,6 @@
 		},
 		{
 			"isOpen": true,
-			"name": "M店铺扫活动",
-			"envName":"M_FANS_RED_PACKET_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_active_scan.js"
-		},
-		{
-			"isOpen": true,
 			"name": "超级无线店铺签到",
 			"envName":"LZKJ_SEVENDAY",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
