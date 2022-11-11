@@ -469,6 +469,12 @@
 			"name": "读秒拼手速通用活动",
 			"envName":"jd_wxSecond_activityId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxSecond.js"
+		},
+		{
+			"isOpen": true,
+			"name": "邀好友赢大礼",
+			"envName":"yhyauthorCode",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_prodev.py"
 		}
    ]    
 }
