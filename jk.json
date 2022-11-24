@@ -475,6 +475,12 @@
 			"name": "邀好友赢大礼",
 			"envName":"yhyauthorCode",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_prodev.py"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺左侧刮刮乐",
+			"envName":"jd_shopDraw_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopDraw.js"
 		}
    ]    
 }
