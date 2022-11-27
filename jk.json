@@ -28,21 +28,69 @@
   "jk":[
 		{
 			"isOpen": true,
+			"name": "大牌联合通用开卡",
+			"envName":"DPLHTY",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
+		},
+		{
+			"isOpen": true,
+			"name": "jd_lzkjInteract邀请有礼",
+			"envName":"jd_lzkjInteractId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkjInteract.py"
+		},
+		{
+			"isOpen": true,
+			"name": "LZ刮刮乐抽奖通用活动-加密",
+			"envName":"jd_drawCenter_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_drawCenter.js"
+		},
+		{
+			"isOpen": true,
+			"name": "加购有礼通用-加密",
+			"envName":"jd_wxCollectionActivity_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺左侧刮刮乐",
+			"envName":"jd_shopDraw_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopDraw.js"
+		},
+		{
+			"isOpen": true,
+			"name": "LZ店铺游戏",
+			"envName":"jd_wxgame_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxgame.js"
+		},
+		{
+			"isOpen": true,
 			"name": "分享有礼",
 			"envName":"jd_wxShareActivity_activityId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShareActivity.js"
 		},
 		{
 			"isOpen": true,
-			"name": "邀好友赢大礼",
-			"envName":"jd_inv_authorCode",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_inviteFriendsGift.py"
+			"name": "微定制组队瓜分-监控脚本",
+			"envName":"jd_wdz_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz.js"
 		},
 		{
 			"isOpen": true,
-			"name": "加购有礼-JK",
-			"envName":"jd_wxCollectionActivityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.py"
+			"name": "邀好友赢大礼",
+			"envName":"yhyauthorCode",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_prodev.py"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺礼包特效",
+			"envName":"jd_wxShopGift_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopGift.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺抽奖通用活动-加密",
+			"envName":"LUCK_DRAW_URL",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_luck_draw.js"
 		},
 		{
 			"isOpen": true,
@@ -58,9 +106,9 @@
 		},
 		{
 			"isOpen": true,
-			"name": "店铺礼包特效",
-			"envName":"jd_wxShopGift_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxShopGift.js"
+			"name": "LZ让福袋飞通用活动",
+			"envName":"jd_wxUnPackingActivity_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxUnPackingActivity.js"
 		},
 		{
 			"isOpen": true,
@@ -70,15 +118,21 @@
 		},
 		{
 			"isOpen": true,
-			"name": "分享有礼",
-			"envName":"jd_fxyl_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_share.js"
+			"name": "读秒拼手速通用活动",
+			"envName":"jd_wxSecond_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxSecond.js"
 		},
 		{
 			"isOpen": true,
-			"name": "大牌联合通用开卡",
-			"envName":"DPLHTY",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_opencardDPLHTY.js"
+			"name": "生日礼包和会员等级礼包",
+			"envName":"jd_wxMcLevelAndBirthGifts_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
+		},
+		{
+			"isOpen": true,
+			"name": "知识超人",
+			"envName":"jd_wxKnowledgeActivity_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxKnowledgeActivity.js"
 		},
 		{
 			"isOpen": true,
@@ -88,15 +142,63 @@
 		},
 		{
 			"isOpen": true,
-			"name": "LZ店铺游戏",
-			"envName":"jd_wxgame_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxgame.js"
+			"name": "集卡抽奖通用活动",
+			"envName":"jd_wxCollectCard_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectCard.js"
 		},
 		{
 			"isOpen": true,
-			"name": "LZ让福袋飞通用活动",
-			"envName":"jd_wxUnPackingActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxUnPackingActivity.js"
+			"name": "购物车锦鲤通用活动",
+			"envName":"jd_wxCartKoi_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCartKoi.js"
+		},
+		{
+			"isOpen": true,
+			"name": "LZ盖楼有礼",
+			"envName":"jd_wxBuildActivity_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxBuildActivity.js"
+		},
+		{
+			"isOpen": true,
+			"name": "微定制瓜分福袋-加密",
+			"envName":"jd_wdzfd_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdzfd.js"
+		},
+		{
+			"isOpen": true,
+			"name": "CJ完善有礼-加密",
+			"envName":"jd_completeInfoActivity_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_completeInfoActivity.js"
+		},
+		{
+			"isOpen": true,
+			"name": "收藏大师-关注商品",
+			"envName":"jd_collect_shop_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_shop.js"
+		},
+		{
+			"isOpen": true,
+			"name": "收藏大师-关注有礼",
+			"envName":"jd_collect_item_activityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_item.js"
+		},
+		{
+			"isOpen": true,
+			"name": "邀好友赢大礼",
+			"envName":"jd_inv_authorCode",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_inviteFriendsGift.py"
+		},
+		{
+			"isOpen": true,
+			"name": "加购有礼-JK",
+			"envName":"jd_wxCollectionActivityUrl",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.py"
+		},
+		{
+			"isOpen": true,
+			"name": "分享有礼",
+			"envName":"jd_fxyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_share.js"
 		},
 		{
 			"isOpen": true,
@@ -118,12 +220,6 @@
 		},
 		{
 			"isOpen": true,
-			"name": "微定制组队瓜分-监控脚本",
-			"envName":"jd_wdz_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdz.js"
-		},
-		{
-			"isOpen": true,
 			"name": "店铺会员礼包-监控脚本",
 			"envName":"jd_shopCollectGiftId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopCollectGift.py"
@@ -142,105 +238,9 @@
 		},
 		{
 			"isOpen": true,
-			"name": "店铺抽奖通用活动-加密",
-			"envName":"LUCK_DRAW_URL",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_luck_draw.js"
-		},
-		{
-			"isOpen": true,
-			"name": "LZ盖楼有礼",
-			"envName":"jd_wxBuildActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxBuildActivity.js"
-		},
-		{
-			"isOpen": true,
-			"name": "加购有礼通用-加密",
-			"envName":"jd_wxCollectionActivity_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectionActivity.js"
-		},
-		{
-			"isOpen": true,
-			"name": "生日礼包和会员等级礼包",
-			"envName":"jd_wxMcLevelAndBirthGifts_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxMcLevelAndBirthGifts.js"
-		},
-		{
-			"isOpen": true,
-			"name": "CJ完善有礼-加密",
-			"envName":"jd_completeInfoActivity_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_completeInfoActivity.js"
-		},
-		{
-			"isOpen": true,
 			"name": "M关注有礼无线",
 			"envName":"M_WX_SHOP_GIFT_URL",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_shopGift.js"
-		},
-		{
-			"isOpen": true,
-			"name": "LZ刮刮乐抽奖通用活动-加密",
-			"envName":"jd_drawCenter_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_drawCenter.js"
-		},
-		{
-			"isOpen": true,
-			"name": "集卡抽奖通用活动",
-			"envName":"jd_wxCollectCard_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCollectCard.js"
-		},
-		{
-			"isOpen": true,
-			"name": "购物车锦鲤通用活动",
-			"envName":"jd_wxCartKoi_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxCartKoi.js"
-		},
-		{
-			"isOpen": true,
-			"name": "收藏大师-关注有礼",
-			"envName":"jd_collect_item_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_item.js"
-		},
-		{
-			"isOpen": true,
-			"name": "收藏大师-关注商品",
-			"envName":"jd_collect_shop_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_txzj_collect_shop.js"
-		},
-		{
-			"isOpen": true,
-			"name": "知识超人",
-			"envName":"jd_wxKnowledgeActivity_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxKnowledgeActivity.js"
-		},
-		{
-			"isOpen": true,
-			"name": "微定制瓜分福袋-加密",
-			"envName":"jd_wdzfd_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wdzfd.js"
-		},
-		{
-			"isOpen": true,
-			"name": "读秒拼手速通用活动",
-			"envName":"jd_wxSecond_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_wxSecond.js"
-		},
-		{
-			"isOpen": true,
-			"name": "邀好友赢大礼",
-			"envName":"yhyauthorCode",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_prodev.py"
-		},
-		{
-			"isOpen": true,
-			"name": "店铺左侧刮刮乐",
-			"envName":"jd_shopDraw_activityUrl",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopDraw.js"
-		},
-		{
-			"isOpen": true,
-			"name": "jd_lzkjInteract邀请有礼",
-			"envName":"jd_lzkjInteractId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkjInteract.py"
 		}
-   ]    
+   ]
 }
