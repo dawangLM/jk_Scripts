@@ -241,6 +241,36 @@
 			"name": "M关注有礼无线",
 			"envName":"M_WX_SHOP_GIFT_URL",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_shopGift.js"
+		},
+		{
+			"isOpen": true,
+			"name": "lzkj邀请入会有礼",
+			"envName":"jd_lzkj_interactsaas_yqrhyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_yqrhyl.js"
+		},
+		{
+			"isOpen": true,
+			"name": "入会开卡领取礼包",
+			"envName":"VENDER_ID",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_card_force.js"
+		},
+		{
+			"isOpen": true,
+			"name": "cjhy每日抢",
+			"envName":"jd_cjhy_daily_ids",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_daily.js"
+		},
+		{
+			"isOpen": true,
+			"name": "JD抽奖机",
+			"envName":"JD_Lottery",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lottery.js"
+		},
+		{
+			"isOpen": true,
+			"name": "lzkj每日抢",
+			"envName":"jd_lzkj_daily_ids",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_daily.js"
 		}
    ]
 }
