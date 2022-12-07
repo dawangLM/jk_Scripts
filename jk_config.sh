@@ -1,4 +1,4 @@
-# Bot 监控文件自动变量 2022-12-05
+# Bot 监控文件自动变量 2022-12-07
 
 ## 大牌联合通用开卡 jd_opencardDPLHTY.js
 export DPLHTY="28b1c06515b546388d12_221012"
@@ -121,9 +121,6 @@ export redis_url="2022-11-27"
 export M_WX_SHOP_GIFT_URL="https://lzkj-isv.isvjcloud.com/wxShopGift/activity?activityId=cbd8700d08174bf984c9f3d985f68a6f"export jd_wdz_activityUrl="https://cjhy-isv.isvjcloud.com"
 export jd_joinCommon_uuid="你的助力码"
 
-## lzkj邀请入会有礼 jd_lzkj_interactsaas_yqrhyl.js
-export jd_lzkj_interactsaas_yqrhyl_activityId="2022-12-05"            	## 活动id 必须
-
 ## 入会开卡领取礼包 jd_card_force.js
 export VENDER_ID="2022-12-05"           								## 入会店铺id
 export OPENCARD_BEAN="10"       										## 最低多少豆入会
@@ -140,3 +137,22 @@ export JD_Lottery="2022-12-05"
 export jd_lzkj_daily_ids="2022-12-05"        							## 活动Id   必须
 export jd_lzkj_daily_num="15"                							## 执行前多少个号  不设置则默认执行前15个
 export jd_lzkj_daily_openCard="1"            							## 设置为1则自动入会 不设置或者设置为0则不自动入会
+
+##  cjhy幸运抽奖 jd_cjhy_wxDrawActivity.js
+export jd_cjhy_wxDrawActivity_Id="2022-12-07"              多个活动Id用&隔开，不支持url
+export jd_cjhy_wxDrawActivity_num="15"                      执行前多少个号  不设置则默认执行前15个
+export jd_cjhy_wxDrawActivity_openCard="1"                  设置为1则自动入会 不设置或者设置为0则不自动入会
+
+##  lzkj邀请入会有礼 jd_lzkj_interact_yqrhyl.js
+export jd_lzkj_interactsaas_yqrhyl_activityId="2022-12-07"            必须
+
+
+##  lzkj幸运抽奖 jd_lzkj_wxDrawActivity.js
+export jd_lzkj_wxDrawActivity_Id="2022-12-07"  多个活动Id用&隔开，不支持url
+export jd_lzkj_wxDrawActivity_num="15"          执行前多少个号  不设置则默认执行前15个
+export jd_lzkj_wxDrawActivity_openCard="1"      设置为1则自动入会 不设置或者设置为0则不自动入会
+
+
+
+
+

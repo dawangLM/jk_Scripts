@@ -244,12 +244,6 @@
 		},
 		{
 			"isOpen": true,
-			"name": "lzkj邀请入会有礼",
-			"envName":"jd_lzkj_interactsaas_yqrhyl_activityId",
-			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_yqrhyl.js"
-		},
-		{
-			"isOpen": true,
 			"name": "入会开卡领取礼包",
 			"envName":"VENDER_ID",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_card_force.js"
@@ -271,6 +265,27 @@
 			"name": "lzkj每日抢",
 			"envName":"jd_lzkj_daily_ids",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_daily.js"
+		},
+		,
+		{
+			"isOpen": true,
+			"name": "cjhy幸运抽奖",
+			"envName":"jd_cjhy_wxDrawActivity_Id",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxDrawActivity.js"
+		},
+		,
+		{
+			"isOpen": true,
+			"name": "lzkj邀请入会有礼",
+			"envName":"jd_lzkj_interactsaas_yqrhyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interact_yqrhyl.js"
+		},
+		,
+		{
+			"isOpen": true,
+			"name": "lzkj幸运抽奖",
+			"envName":"jd_lzkj_wxDrawActivity_Id",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxDrawActivity.js"
 		}
    ]
 }
