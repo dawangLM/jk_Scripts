@@ -8,7 +8,7 @@ Date: 2022/8/12 20:37
 TG: https://t.me/HarbourToulu
 TgChat: https://t.me/HarbourSailing
 cron: 0 0 */2 * * *
-new Env('库依赖一键安装');
+new Env('HarbourJ库依赖一键安装');
 Description:1.HarbourToulu库jd_sign本地算法依赖一键检测安装脚本;
             2.自动识别机器系统/架构,拉取最新依赖文件;
             3.本地sign算法已编译支持Windows(amd64)、Linux(amd64/arm64/arm)、Macos(x86_64)系统/架构;
@@ -29,6 +29,9 @@ def updateDependent():
     system = platform.system().lower()
     PyVersion_ = platform.python_version()
     PyVersion = ''.join(PyVersion_.split('.')[:2])
+    if int(PyVersion) > 310:
+        print(f"✅识别本机设备Py版本为{PyVersion_},版本太高暂不支持,可退回青龙2.11.3版本!\n")
+        sys.exit()
     if system == "windows":
         fileName = f"jd_sign-win-amd64-py{PyVersion}.zip"
         print(f"✅识别本机设备为Windows amd64,Py版本为{PyVersion_}\n")
