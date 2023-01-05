@@ -244,6 +244,12 @@
 		},
 		{
 			"isOpen": true,
+			"name": "lzkj邀请入会有礼",
+			"envName":"jd_lzkj_interactsaas_yqrhyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_yqrhyl.js"
+		},
+		{
+			"isOpen": true,
 			"name": "入会开卡领取礼包",
 			"envName":"VENDER_ID",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_card_force.js"
@@ -286,6 +292,60 @@
 			"name": "lzkj幸运抽奖",
 			"envName":"jd_lzkj_wxDrawActivity_Id",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxDrawActivity.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺礼包",
+			"envName":"jd_shopGifts_ids",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_shopGifts.js"
+		},
+		{
+			"isOpen": true,
+			"name": "M集卡抽奖",
+			"envName":"M_WX_COLLECT_CARD_URL",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_collectCard.js"
+		},
+		{
+			"isOpen": true,
+			"name": "M分享有礼",
+			"envName":"M_WX_SHARE_URL",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_share.js"
+		},
+		{
+			"isOpen": true,
+			"name": "M组队瓜分",
+			"envName":"M_WX_TEAM_URL",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/m_jd_wx_team.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺签到 · 超级无线",
+			"envName":"LZKJ_SEVENDAY",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺签到 · 超级无线",
+			"envName":"LZKJ_SIGN",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺签到 · 超级无线",
+			"envName":"CJHY_SEVENDAY",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺签到 · 超级无线",
+			"envName":"CJHY_SIGN",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_sevenDay.js"
+		},
+		{
+			"isOpen": true,
+			"name": "邀请入会有礼",
+			"envName":"jd_lzkj_loreal_invite_url",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_loreal_invite.js"
 		}
    ]
 }
