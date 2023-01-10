@@ -346,6 +346,30 @@
 			"name": "邀请入会有礼",
 			"envName":"jd_lzkj_loreal_invite_url",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_loreal_invite.js"
+		},
+		{
+			"isOpen": true,
+			"name": "店铺抽奖-JK",
+			"envName":"DPCJID",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_dpcj.py"
+		},
+		{
+			"isOpen": true,
+			"name": "关注商品有礼",
+			"envName":"jd_lzkj_interactsaas_gzspyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_gzspyl.js"
+		},
+		{
+			"isOpen": true,
+			"name": "lzkj_interactsaas关注店铺有礼",
+			"envName":"jd_lzkj_interactsaas_gzyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_gzyl.js"
+		},
+		{
+			"isOpen": true,
+			"name": "lzkj_interactsaas加购有礼",
+			"envName":"jd_lzkj_interactsaas_jgyl_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_jgyl.js"
 		}
    ]
 }
