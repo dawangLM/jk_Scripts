@@ -16,6 +16,8 @@
     "/注释log_send日志发送模式/": "1-bot发送；2-user发送；",
 
     "/注释log_type显示形式/": "1-默认（1000字符内文本形式，大于1000字符log文件）；2-仅发送log文件",
+	
+	"/更新日期":"2023-02-10",
 
     "cmdName": "task",
 
@@ -272,21 +274,18 @@
 			"envName":"jd_lzkj_daily_ids",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_daily.js"
 		},
-		,
 		{
 			"isOpen": true,
 			"name": "cjhy幸运抽奖",
 			"envName":"jd_cjhy_wxDrawActivity_Id",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxDrawActivity.js"
 		},
-		,
 		{
 			"isOpen": true,
 			"name": "lzkj邀请入会有礼",
 			"envName":"jd_lzkj_interactsaas_yqrhyl_activityId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interact_yqrhyl.js"
 		},
-		,
 		{
 			"isOpen": true,
 			"name": "lzkj幸运抽奖",
@@ -370,6 +369,24 @@
 			"name": "lzkj_interactsaas加购有礼",
 			"envName":"jd_lzkj_interactsaas_jgyl_activityId",
 			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_jgyl.js"
+		},
+		{
+			"isOpen": true,
+			"name": "cjhy店铺礼包",
+			"envName":"jd_cjhy_wxShopGift_ids",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_cjhy_wxShopGift.js"
+		},
+		{
+			"isOpen": true,
+			"name": "lzkj_interactsaas邀请好友入会",
+			"envName":"jd_lzkj_interactsaas_yqhyrh_activityId",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_interactsaas_yqhyrh.js"
+		},
+		{
+			"isOpen": true,
+			"name": "lzkj店铺礼包",
+			"envName":"jd_lzkj_wxShopGift_ids",
+			"scriptPath":"/ql/data/repo/Aurora209_jk_Scripts/jd_lzkj_wxShopGift.js"
 		}
    ]
 }
