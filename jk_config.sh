@@ -167,6 +167,7 @@ export jd_fxyl_activityId="e3c1da5260fb44f593c9f097e94000dd"
 
 ## 邀好友赢大礼 jd_prodev.py
 export yhyauthorCode="2022-11-09"
+export yhypin="20462764-81081284"
 
 ## 分享有礼 jd_wxShareActivity.js
 export jd_wxShareActivity_activityId="d103bb8dc5e34c109e9d06dca6f3f9d9"
