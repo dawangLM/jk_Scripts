@@ -11,8 +11,6 @@
   
 ##  青龙拉取脚本  
   
-  
-ql repo https://github.com/Aurora209/jk_Scripts.git "jd_|m_|fav_|pkc_" "" "jdCookie|USER_AGENTS|sendNotify|sign_graphics_validate|magic|ql"
-
+ql repo https://github.com/Aurora209/jk_Scripts.git "jd_|m_|fav_|pkc_" "" "function|utils|depend|h5sts|jdCookie|JDJRValidator_Pure|JS_USER_AGENTS|magic|ql|sendNotify|sign_graphics_validate|TS_USER_AGENTS|USER_AGENTS"
 
 
