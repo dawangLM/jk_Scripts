@@ -11,7 +11,7 @@
 第六个要素： 最后一个 "" （里面标记拉取前面gt库的那个分支）
  -->
 ~~~
-ql repo https://github.com/Aurora209/jk_Scripts.git "jd_|m_|fav_|pkc_" "" "function|utils|depend|h5sts|jdCookie|JDJRValidator_Pure|JS_USER_AGENTS|magic|ql|sendNotify|sign_graphics_validate|TS_USER_AGENTS|USER_AGENTS"
+ql repo https://github.com/Aurora209/jk_Scripts.git "jd_|m_" "" "function|depend|h5sts|jdCookie|JS_USER_AGENTS|magic|ql|sendNotify|sign_graphics_validate|USER_AGENTS"
 ~~~
 ## 依赖安装脚本
 https://github.com/FlechazoPh/QLDependency/blob/main/Shell/XinQLOneKey.sh
