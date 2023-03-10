@@ -40,15 +40,30 @@
 	  {"isOpen": true,"name": "京东抽奖机通用-KR","envName":"JD_Lottery","scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_lottery.js"},
 	  {"isOpen": true,"name": "盲盒任务抽京豆","envName":"jd_mhurlList","scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_mhtask.js"},
 	  {"isOpen": true,"name": "邀请赢大礼","envName":"yhyauthorCode","scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_prodev.py"},
-	  {
-		  "isOpen": true,
-		  "name": "超级无线店铺签到",
-		  "envName":"LZKJ_SEVENDAY",
-		  "envName":"LZKJ_SIGN",
-		  "envName":"CJHY_SEVENDAY",
-		  "envName":"CJHY_SIGN",
-		  "scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_sevenDay.js"
-		  },
+	{
+		"isOpen": true,
+		"name": "超级无线店铺签到",
+		"envName": "LZKJ_SEVENDAY",
+		"scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/jd_sevenDay.js"
+	},
+	{
+		"isOpen": true,
+		"name": "超级无线店铺签到",
+		"envName": "LZKJ_SIGN",
+		"scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/jd_sevenDay.js"
+	},
+	{
+		"isOpen": true,
+		"name": "超级无线店铺签到",
+		"envName": "CJHY_SEVENDAY",
+		"scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/jd_sevenDay.js"
+	},
+	{
+		"isOpen": true,
+		"name": "超级无线店铺签到",
+		"envName": "CJHY_SIGN",
+		"scriptPath": "/ql/data/scripts/Aurora209_jk_Scripts/jd_sevenDay.js"
+	},
 	  {"isOpen": true,"name": "店铺左侧刮刮乐","envName":"jd_shopDraw_activityUrl","scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_shopDraw.js"},
 	  {"isOpen": true,"name": "收藏大师-加购有礼","envName":"jd_cart_item_activityUrl","scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_txzj_cart_item.js"},
 	  {"isOpen": true,"name": "收藏大师-关注有礼","envName":"jd_collect_item_activityUrl","scriptPath":"/ql/data/scripts/Aurora209_jk_Scripts/jd_txzj_collect_item.js"},
