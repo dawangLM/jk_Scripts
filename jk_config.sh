@@ -1,1 +1,97 @@
-# Bot 监控文件自动变量 2023-02-10  ## cjhy每日抢 jd_cjhy_daily.js export jd_cjhy_daily_ids="2022-12-05"  ## 微定制组队瓜分-监控脚本 jd_wdz.js export jd_wdz_activityId="97810c54192345c09227cbf0738ab425"  ## JD抽奖机 jd_lottery.js export JD_Lottery="id"  ## 购物车锦鲤通用活动 jd_wxCartKoi.js export jd_wxCartKoi_activityId="0e8d21f2cd2048a9837272e4b9275f85"  ## 通用开卡-joinCommon系列 jd_joinCommon_opencard.py export jd_joinCommonId="6c0d1b3954db48299de4b0ad4096a037&1000015445"  ## CJ组队瓜分京豆 jd_cjzdgf.js export jd_cjhy_activityId="3537b87974584827b6edf61d406442b1"  ## 店铺会员礼包-监控脚本 jd_shopCollectGift.py export jd_shopCollectGiftId="1000448096"  ## 让福袋飞 jd_wxUnPackingActivity.js export jd_wxUnPackingActivity_activityId="cf3f6be374d6421997d1a5f32db1c571"  ## 关注商品有礼 jd_lzkj_interactsaas_gzspyl.js export jd_lzkj_interactsaas_gzspyl_activityId="活动id"  ## 收藏大师-关注商品 jd_txzj_collect_shop.js export jd_collect_shop_activityUrl="https://txzj-isv.isvjcloud.com/collect_shop/home?a=WVZHejJrS0JjSUNTM2lKWFVR"  ##  店铺礼包 jd_shopGifts.js export jd_shopGifts_ids="shopId"  ## 生日礼包-监控脚本 jd_wxBirthGifts.py export jd_wxBirthGiftsId="f7ce4b44e4d04d5abc0f221121769ad5"  ## 大牌联合通用开卡 jd_opencardDPLHTY.js export DPLHTY="c80f5dadc628493ba_230208"  ## 读秒拼手速通用活动 jd_wxSecond.js export jd_wxSecond_activityId="b967ae5623b045a5889f468e963a4114"  ##  lzkj幸运抽奖 jd_lzkj_wxDrawActivity.js export jd_lzkj_wxDrawActivity_Id="2022-12-07"  ## 店铺签到 · 超级无线 jd_sevenDay.js export LZKJ_SEVENDAY="xxxx,xxxx,xxxxx" export LZKJ_SIGN="xxxx,xxxx,xxxxx" export CJHY_SEVENDAY="xxxx,xxxx,xxxxx" export CJHY_SIGN="xxxx,xxxx,xxxxx"  ## M分享有礼	m_jd_wx_share.js export M_WX_SHARE_URL=""  ## M组队瓜分 m_jd_wx_team.js export M_WX_TEAM_URL=""  ## 微定制瓜分福袋-加密 jd_wdzfd.js export jd_wdzfd_activityId="2022-10-25" export jd_wdzfd_task="true"  ## 店铺左侧刮刮乐 jd_shopDraw.js export jd_shopDraw_activityUrl="2022-11-24"		## 活动链接  ## M集卡抽奖 m_jd_wx_collectCard.js export M_WX_COLLECT_CARD_URL="https://lzkjdz-isv.isvjcloud.com/wxCollectCard/activity/4046322?activityId=aadff45597284263985cd3b503c7faa6&shopid=1000088787"  ## 完善信息有礼-监控脚本 jd_wxCompleteInfo.py export jd_wxCompleteInfoId="08422dca5d9a472793665d947c87624a&1000089246"  ## LZ组队瓜分京豆 jd_zdjr.js export jd_zdjr_activityId="b6ad6a6b0c04445d909d8b5bbce08d6c"  ## cjhy店铺礼包 jd_cjhy_wxShopGift.js export jd_cjhy_wxShopGift_ids="id1&id2&id3"  ## jinggeng邀请入会有礼 jd_jinggengInvite.py export jinggengInviteJoin=""  ## 加购有礼通用-加密 jd_wxCollectionActivity.js export jd_wxCollectionActivity_activityUrl="https://cjhy-isv.isvjcloud.com/wxCollectionActivity/activity/activity?activityId=dd51257311aa4c539c6a157ae598e438" export jd_wxCollectionActivity_num="15"		 ## 运行账号数量  ## 知识超人 jd_wxKnowledgeActivity.js export jd_wxKnowledgeActivity_activityUrl="https://cjhy-isv.isvjcloud.com/wxKnowledgeActivity/activity?activityId=0bec9efc30bd4f02895fe1187646380c"  ## 店铺特效关注有礼-JK jd_wxShopGift.py export jd_wxShopGiftId="2817c2bf2c6540c18577497d529f5d2c"  ## lzkj_interactsaas邀请好友入会 jd_lzkj_interactsaas_yqhyrh.js export jd_lzkj_interactsaas_yqhyrh_activityId=""  ## jd_lzkjInteract邀请有礼 jd_lzkjInteract.py export jd_lzkjInteractId="1596027831741644801" 	## 活动链接中的activityId参数 export jd_lzkjInteractUserId="2022-12-27"		## 你的shareUserId邀请码  ## 入会开卡领取礼包 jd_card_force.js export VENDER_ID="2022-12-05"           								## 入会店铺id export OPENCARD_BEAN="10"       										## 最低多少豆入会  ##  cjhy幸运抽奖 jd_cjhy_wxDrawActivity.js export jd_cjhy_wxDrawActivity_Id="2022-12-07"                           ## 多个活动Id用&隔开，不支持url  ## 店铺抽奖通用活动-加密 jd_luck_draw.js export LUCK_DRAW_URL="https://cjhy-isv.isvjcloud.com/wxDrawActivity/activity/8549353?activityId=c083216451914cbbb5d536eaba3e7a82"  ## M关注有礼无线 m_jd_wx_shopGift.js export M_WX_SHOP_GIFT_URL="https://lzkj-isv.isvjcloud.com/wxShopGift/activity?activityId=cbd8700d08174bf984c9f3d985f68a6f"export jd_wdz_activityUrl="https://cjhy-isv.isvjcloud.com"  ## LZ店铺游戏 jd_wxgame.js export jd_wxgame_activityId="8553c3856025467d8f5c672362140562" export jd_wxgame_addCart="true"  ## 生日礼包和会员等级礼包 jd_wxMcLevelAndBirthGifts.js export jd_wxMcLevelAndBirthGifts_activityId="37b4e022f71642f99819a659bcabeeae"  ## 集卡抽奖通用活动 jd_wxCollectCard.js export jd_wxCollectCard_activityId="9cfce1d6d8e2477d9024a458e435600a"  ## 店铺礼包特效 jd_wxShopGift.js export jd_wxShopGift_activityUrl="https://lzkj-isv.isvjd.com/wxShopGift/activity?activityId=27b27b9affc0478c8386bbcc60b1db1b"  ## lzkj_interactsaas关注店铺有礼 jd_lzkj_interactsaas_gzyl.js export jd_lzkj_interactsaas_gzyl_activityId="活动id"  ## 收藏大师-关注有礼 jd_txzj_collect_item.js export jd_collect_item_activityUrl="https://txzj-isv.isvjcloud.com/collect_item/home?a=d2NKcmg2azJGV2diS2pNSEJB"  ##  lzkj邀请入会有礼 jd_lzkj_interact_yqrhyl.js export jd_lzkj_interactsaas_yqrhyl_activityId="2022-12-07"  ## 粉丝互动通用活动 jd_wxFansInterActionActivity.js export jd_wxFansInterActionActivity_activityId="5b2aadcb361f44e9965367e049272c73"  ## CJ完善有礼-加密 jd_completeInfoActivity.js export jd_completeInfoActivity_activityId="6f4f0389bf8344e8a29c4d9e68f23bf8" export jd_completeInfoActivity_venderId="1000000157"  ## LZ刮刮乐抽奖通用活动-加密 jd_drawCenter.js export jd_drawCenter_activityId="410d815f8f8a4b17a40a39bd579b511e"  ## lzkj每日抢 jd_lzkj_daily.js export jd_lzkj_daily_ids="2022-12-05"  ## LZ盖楼有礼 jd_wxBuildActivity.js export jd_wxBuildActivity_activityId="2ff46b8961fc448c9c6c3939e4dbb0a1"  ## 加购有礼-JK jd_wxCollectionActivity.py export jd_wxCollectionActivityUrl="https://lzkj-isv.isvjcloud.com/wxCollectionActivity/activity2/810bb58a9acb4a04ae08ad426efdc59a?activityId=810bb58a9acb4a04ae08ad426efdc59a"  ## 邀请入会有礼 jd_lzkj_loreal_invite.js export jd_lzkj_loreal_invite_url=""  ## lzkj_interactsaas加购有礼 jd_lzkj_interactsaas_jgyl.js export jd_lzkj_interactsaas_jgyl_activityId="活动id"  ## 邀好友赢大礼 jd_inviteFriendsGift.py export jd_inv_authorCode="a00ffe7d9e974325a6373cbd46294db6"  ## 关注店铺抽奖 jd_wxShopFollowActivity.js export jd_wxShopFollowActivity_activityId="13d9de11610e444b822d86ebcf43c884"  ## 分享有礼 jd_share.js export jd_fxyl_activityId="e3c1da5260fb44f593c9f097e94000dd"  ## 邀好友赢大礼 jd_prodev.py export yhyauthorCode="2022-11-09" export yhypin="20462764-81081284"  ## 分享有礼 jd_wxShareActivity.js export jd_wxShareActivity_activityId="d103bb8dc5e34c109e9d06dca6f3f9d9"  ## lzkj店铺礼包 jd_lzkj_wxShopGift.js export jd_lzkj_wxShopGift_ids=""  ## 店铺抽奖-JK jd_dpcj.py export DPCJID="shopId1&shopId2"
+#  监控变量  2023-04-06
+
+##  Migic /walle1798/WALL.E
+###  M粉丝红包
+export M_FANS_RED_PACKET_URL=""
+
+###  M收藏有礼
+export M_FAV_SHOP_ARGV=""
+
+###  M关注有礼
+export M_FOLLOW_SHOP_ARGV=""
+
+###  M加购有礼
+export M_WX_ADD_CART_URL="https://cjhy-isv.isvjcloud.com/wxCollectionActivity/activity?activityId=0134cbb38c084c9b968b09111b3e6876"
+
+###  M盖楼领奖
+export M_WX_BUILD_DRAW_URL="https://lzkj-isv.isvjcloud.com/wxBuildActivity/activity?activityId=beffbd137de24995a3cdc07004609d71"
+
+###  M老虎机抽奖
+export M_WX_CENTER_DRAW_URL="https://lzkj-isv.isvjcloud.com/drawCenter/activity/396567c819e84e1882f6597d5c7b7916?activityId=396567c819e84e1882f6597d5c7b7916"
+
+###  M集卡抽奖
+export M_WX_COLLECT_CARD_URL="https://lzkjdz-isv.isvjcloud.com/wxCollectCard/activity/9281714?activityId=1a7268e6499540af9b5a31de84af0f2d&shopid=1000081945"
+
+###  M完善有礼
+export M_WX_COMPLETE_DRAW_URL="https://cjhy-isv.isvjcloud.com/wx/completeInfoActivity/view/activity?activityId=8c14bd2f9da74ee099523bb013d7ab98&venderId=1000003829"
+
+###  M打豆豆
+export M_WX_DADOUDOU_URL="https://lzkj-isv.isvjcloud.com/wxgame/activity/21c78dbb3acc4f60aa528688625ad098?activityId=21c78dbb3acc4f60aa528688625ad098"
+
+###  M关注抽奖
+export M_WX_FOLLOW_DRAW_URL="https://lzkj-isv.isvjcloud.com/wxShopFollowActivity/activity/631f94b043ce4076bfc26ab61d29b36e?activityId=631f94b043ce4076bfc26ab61d29b36e"
+
+###  M无线游戏
+export M_WX_GAME_URL="https://cjhy-isv.isvjcloud.com/wxGameActivity/activity?activityId=230b554ba3984f53baaa2a699ce59ed0"
+
+###  M等级/生日礼包
+export M_WX_LEVEL_BIRTH_URL="https://cjhy-isv.isvjcloud.com/mc/wxMcLevelAndBirthGifts/activity?activityId=8dae7b938578401a8c9ea1ccbe7b66bb"
+
+###  M幸运抽奖
+export M_WX_LUCK_DRAW_URL="https://cjhy-isv.isvjcloud.com/wxDrawActivity/activity?activityId=3fb4507299d34bc7a0e6b9d4fcfc522a"
+
+###  M读秒手速
+export M_WX_SECOND_DRAW_URL="https://lzkjdz-isv.isvjcloud.com/wxSecond/activity?activityId=274f50cead0c46b087a6128e8943b73c&shopid=836452"
+
+###  M分享有礼
+export M_WX_SHARE_URL="https://lzkjdz-isv.isvjcloud.com/wxShareActivity/activity/2fbac2340c39425181032df5079fd69f?activityId=2fbac2340c39425181032df5079fd69f"
+
+###  M关注有礼无线
+export M_WX_SHOP_GIFT_URL="https://lzkj-isv.isvjcloud.com/wxShopGift/activity?activityId=ebdf4dac6c9c4c4083961c225649f79f"
+
+### M组队瓜分
+export M_WX_TEAM_URL="https://cjhydz-isv.isvjcloud.com/wxTeam/activity?activityId=f9256dc53f754a06a6e146cd026c8d6f"
+
+###  M知识超人
+export M_WX_KNOWLEDGE_URL=""
+
+
+## 其它
+export jd_sevenDay_activityUrl="https://cjhy-isv.isvjcloud.com/sign/signActivity?activityId=9cd361e41efd42f6aaee32b87ec1a320&&accessToken=eyJhbGciOiJIUzI1NiIsImtpZCI6ImRlZmF1bHQiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE2ODA1MzUxMzgsImZpbGVHVUlEIjoiaHR3SmdXSnZrNnY2cWR2diIsImlhdCI6MTY4MDUzNDgzOCwiaXNzIjoidXBsb2FkZXJfYWNjZXNzX3Jlc291cmNlIiwidXNlcklkIjotNzg0Mzk1NDI4MX0.iZbnNxFAaTuRytRkd5XwggTECm-EqdP3qdY0KMrnKn8"
+export jd_wxCollectionActivityUrl="https://lzkj-isv.isvjcloud.com/wxCollectionActivity/activity2/5e7fb43f06884af0bb9dee66d740d7bf?activityId=5e7fb43f06884af0bb9dee66d740d7bf&adsource=tg_storePage"
+export jd_wxShopFollowActivity_activityUrl="https://lzkj-isv.isvjcloud.com/wxShopFollowActivity/activity/741a0239ef9740c8bdf6d4418ad25b94?activityId=741a0239ef9740c8bdf6d4418ad25b94&adsource=tg_storePage"
+export jd_wxCartKoi_activityId="6e157dbfa8764c3c976c537f113c11c0"
+export jd_wxCompleteInfoId="133791a856454162ad81467287e674d7&1000386385"
+export jd_wxShopGift_activityUrl="https://lzkj-isv.isvjd.com/wxShopGift/activity?activityId=aab776133b9b4f8a8b5fd422d3bc40f9&sid=876cdcb560af36aba205200fc0b8e33w&un_area=4_133_58530_0"
+export jd_cjhy_activityId="039d9bcdad5547029c27e0ec7bdf0d07"
+export jd_wxKnowledgeActivity_activityUrl="https://lzkj-isv.isvjcloud.com/wxKnowledgeActivity/activity/420d54373ed845eaa1c2d3276714f5ee?activityId=420d54373ed845eaa1c2d3276714f5ee"
+export jd_wxShareActivity_activityId="28e4f31c10904bb0bfc0f9a7115c032a"
+export jd_lottery_activityUrl="https://txzj-isv.isvjcloud.com/lottery/home?a=REdKZjlKdEhRSHYwK2w2K1N3"
+export jd_wxMcLevelAndBirthGifts_activityId="b9c3091abb6e4a179abc181846c839a5"
+export yhyauthorCode="296815460f60492c94bf29bb7e2bbdce"
+export jd_cjhy_activityUrl="https://cjhydz-isv.isvjcloud.com"
+export jd_drawCenter_activityId="536f7f52d1004f128366826c2b51d9b4"
+export jd_zdjr_activityId="1767527517d44721a29f1ca5c339022e"
+export jd_inv_authorCode="cc3cede22c104a7c8a40f8d95b8cba39"
+export jd_collect_item_activityUrl="http://jd.lolkda.top/?url=https://txzj-isv.isvjcloud.com/collect_item/home?a=a3BsdTE2MHhHendiTERFQUNn"
+export jd_wxFansInterActionActivity_activityId="104f931de0254573b59a28a5e409e012"
+export jd_wxCollectCard_activityId="0aaddfec00db4c3295c3c5a367c8e825"
+export jd_fxyl_activityId="13cc006daac846f493208866d5d99f29"
+export jd_joinCommonId="984ca2eb531f4d42be4b9398fe96a3c1&1000002467"
+export jd_wxSecond_activityId="274f50cead0c46b087a6128e8943b73c"
+export jd_collect_shop_activityUrl="https://txzj-isv.isvjcloud.com/collect_shop/home?a=TWxPMTJFYURlTktTMkNOUVZn"
+export jd_wxBuildActivity_activityId="81121e974cbb444eafded0ff4687a957"
+export jinggengInviteJoin="https://jinggeng-isv.isvjcloud.com/ql/front/showPerfectInformation?id=9e8080cc84add54a0184c7ca50766bca&user_id=1000081681"
+export DPCJID="12020454"
+export jd_lzkj_loreal_draw_url="https://lzkj-isv.isvjcloud.com/prod/cc/interactsaas/index?activityType=10020&activityId=1642355199006584833&templateId=20210527190900jgkcq011&nodeId=101001&prd=cjwx"
+export jd_shopFollowGiftId="1000093981"
+export jd_cjhy_wxKnowledgeActivity_activityId="https://cjhy-isv.isvjcloud.com/wxKnowledgeActivity/activity?activityId=d236d3361d14436f90107982455b2e0e"
+export jd_cjhy_daily_ids="https://cjhy-isv.isvjcloud.com/activity/daily/wx/indexPage1/fe712e93116943b39f91f5eacdf8ad93?activityId=fe712e93116943b39f91f5eacdf8ad93&venderId=1000135328"
+export jd_wxBirthGiftsId="https://cjhy-isv.isvjcloud.com/mc/wxMcLevelAndBirthGifts/activity?activityId=53acc57ed1f84926a29345884cff1d49"
+export jd_lzkj_wxBuildActivity_activityId="https://lzkj-isv.isvjcloud.com/wxBuildActivity/activity?activityId=fa038f3ee86e4ec4806942555c1f7ff6&adsource=tg_storePage"
+export jd_lzkj_wxCollectionActivityId="bb70725646c14618ae16d93361e055c9"
+export jd_wxCollectionActivity_activityUrl="https://lzkj-isv.isvjd.com/wxCollectionActivity/activity2/activity?activityId=d8a9c64767294630b8c51bc69d465556"
+export jd_wxgame_activityId="e3e6e07c9b8d47bfaa59d373d9671055"
+
+
+
