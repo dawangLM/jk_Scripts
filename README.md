@@ -19,17 +19,13 @@ https://github.com/FlechazoPh/QLDependency/blob/main/Shell/XinQLOneKey.sh
 [WALL.E 脚本仓库](https://github.com/walle1798/WALL.E)
 
 #  ##  监控频道
-#  ### 已失效或查找不到	
+/* #  ### 已失效或查找不到	
 频道ID：-1001572921323	豆豆の垃圾桶 [频道链接](https://t.me/fdd_JSB)			
 频道ID：-1001728533280	京东淘宝精品线报羊毛 [频道链接](https://t.me/jdrain)
-频道ID：-1001276799295	共富殿频道	[频道链接](https://t.me/wondertemple)
--1001578578897 
--1001284907085
--1001112847619
--1001348662850
--1001712229106
--1001749005484
+频道ID：-1001276799295	共富殿频道	[频道链接](https://t.me/wondertemple) */
+
 #  ###  可用频道
 频道ID: -1001720740578	锦鲤偷撸	[频道链接](https://t.me/HarbourToulu)
 频道ID: -1001670294604	Faker线报频道 [频道链接](https://t.me/faketoulu)
-频道ID:	-1001605209079	小火车滴滴 Chat [频道链接]()
+频道ID: -1001749005484	来薅线报通知 [频道链接](https://t.me/LH_notify)
+频道ID: -1001654299303 	WALL.E线报中心[频道链接](https://t.me/WALL_E_ACTIVITY)
