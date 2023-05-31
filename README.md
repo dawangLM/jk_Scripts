@@ -11,7 +11,7 @@ https://github.com/FlechazoPh/QLDependency/blob/main/Shell/XinQLOneKey.sh
 ~~~
 
 ##  脚本来源：  
-[curtinlv Bot监控仓库](https://github.com/curtinlv/gd)
+[curtinlv Bot监控仓库](https://github.com/curtinlv/gd)  
 [甘露殿监控脚本仓库](https://github.com/msechen/jdrain)  
 [shufflewzc/faker2脚本仓库](https://github.com/shufflewzc/faker2/tree/main)  
 [KingRan/KR脚本仓库](https://github.com/KingRan/KR)  
