@@ -8,8 +8,8 @@ Date: 2022/8/12 20:37
 TG: https://t.me/HarbourToulu
 TgChat: https://t.me/HarbourSailing
 cron: 7 7 7 7 7
-new Env('Faker库依赖一键安装');
-Description:1.Faker库jd_sign本地算法依赖一键检测安装脚本;
+new Env('jd_sign 依赖一键安装');
+Description:1.jd_sign本地算法依赖一键检测安装脚本;
             2.自动识别机器系统/架构,拉取最新依赖文件;
             3.本地sign算法已编译支持Windows(amd64)、Linux(amd64/arm64/arm)、Macos(x86_64)系统/架构;
             4.默认支持python3版本为3.8-3.10,过低可能会报错;
@@ -130,7 +130,7 @@ def check_ld_libc(version):
                 print("❌arm64-libc依赖安装失败,请前往Faker TG群查看安装教程\n")
 
 def download(version, systemFile):
-    raw_url = f"https://proxy.zyun.vip/https://github.com/HarbourJ/HarbourToulu/releases/download/{version}/{systemFile}"
+    raw_url = f"https://git.59yoyo.asia/https://github.com/HarbourJ/HarbourToulu/releases/download/{version}/{systemFile}"
     try:
         fileList = os.listdir()
         if systemFile in fileList:
@@ -185,7 +185,7 @@ def signReleaseUpdate():
     """
     判断Release内的主要文件是否更新(判断utils内版本更新log文件-signUpdateLog.log)
     """
-    GitAPI = "https://proxy.zyun.vip/https://raw.githubusercontent.com/HarbourJ/HarbourToulu/main/utils/signUpdateLog.log"
+    GitAPI = "https://git.59yoyo.asia/https://raw.githubusercontent.com/HarbourJ/HarbourToulu/main/utils/signUpdateLog.log"
     # try:
     headers = {
         'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
