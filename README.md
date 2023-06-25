@@ -11,24 +11,7 @@ https://github.com/FlechazoPh/QLDependency/blob/main/Shell/XinQLOneKey.sh
 ~~~
 
 ##  脚本来源：  
-[curtinlv Bot监控仓库](https://github.com/curtinlv/gd)  
-[甘露殿监控脚本仓库](https://github.com/msechen/jdrain)  
 [shufflewzc/faker2脚本仓库](https://github.com/shufflewzc/faker2/tree/main)  
 [KingRan/KR脚本仓库](https://github.com/KingRan/KR)  
-[PKC皮卡车群组](https://t.me/topstyle996)  
 [WALL.E 脚本仓库](https://github.com/walle1798/WALL.E)
-
-<!-- 
-已失效或查找不到	
-频道ID：-1001572921323	豆豆の垃圾桶 [频道链接](https://t.me/fdd_JSB)			
-频道ID：-1001728533280	京东淘宝精品线报羊毛 [频道链接](https://t.me/jdrain)
-频道ID：-1001276799295	共富殿频道	[频道链接](https://t.me/wondertemple)
-频道ID: -1001654299303 	WALL.E线报中心[频道链接](https://t.me/WALL_E_ACTIVITY)
-
-频道ID: -1001804735050	测试频道
-频道ID: -1001670294604	Faker线报频道 [频道链接](https://t.me/faketoulu)
-频道ID: -1001749005484	来薅线报通知 [频道链接](https://t.me/LH_notify)
-频道ID: -1001720740578	锦鲤偷撸	[频道链接](https://t.me/HarbourToulu)
-频道ID: -1001701803872  六舅哥の偷撸殿
-
--->
+[HarbourToulu](https://github.com/HarbourJ/HarbourToulu)
